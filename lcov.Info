@@ -1,0 +1,5323 @@
+SF:C:\Навчання\курсова\ServiceStation\PARTS.API\Program.cs
+FN:10,System.Void Program/<<Main>$>d__0::MoveNext()
+FNDA:0,System.Void Program/<<Main>$>d__0::MoveNext()
+DA:11,0
+DA:15,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:131,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:142,0
+DA:143,0
+DA:144,0
+DA:145,0
+DA:146,0
+DA:150,0
+DA:152,0
+DA:154,0
+BRDA:142,669,0,0
+BRDA:142,669,1,0
+BRDA:60,23,0,0
+BRDA:60,23,1,0
+BRDA:81,23,0,0
+BRDA:81,23,1,0
+BRDA:90,72,0,0
+BRDA:90,72,1,0
+LF:126
+LH:0
+BRF:8
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.API\Controllers\BrandController.cs
+FN:22,System.Void ClientPartAPI.Controllers.BrandController::.ctor(PARTS.BLL.Services.Interaces.IBrandService,Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.BrandController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache)
+FNDA:9,System.Void ClientPartAPI.Controllers.BrandController::.ctor(PARTS.BLL.Services.Interaces.IBrandService,Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.BrandController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache)
+DA:23,9
+DA:24,9
+DA:25,9
+DA:26,9
+DA:27,9
+DA:28,9
+DA:29,9
+DA:30,9
+DA:31,9
+DA:32,9
+FN:180,System.Void ClientPartAPI.Controllers.BrandController/<DeleteByIdAsync>d__8::MoveNext()
+FNDA:2,System.Void ClientPartAPI.Controllers.BrandController/<DeleteByIdAsync>d__8::MoveNext()
+DA:181,2
+DA:183,2
+DA:184,2
+DA:185,2
+DA:186,1
+DA:187,1
+DA:188,1
+DA:191,1
+DA:192,1
+DA:194,0
+DA:195,0
+DA:196,0
+DA:197,0
+DA:199,2
+BRDA:185,185,0,1
+BRDA:185,185,1,1
+FN:36,System.Void ClientPartAPI.Controllers.BrandController/<GetAllAsync>d__4::MoveNext()
+FNDA:1,System.Void ClientPartAPI.Controllers.BrandController/<GetAllAsync>d__4::MoveNext()
+DA:37,1
+DA:39,1
+DA:41,1
+DA:43,1
+DA:44,1
+DA:46,1
+DA:47,1
+DA:48,1
+DA:49,1
+DA:50,1
+DA:51,1
+DA:53,1
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:60,1
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:66,1
+DA:67,1
+DA:69,1
+DA:70,1
+DA:71,1
+DA:72,1
+DA:73,1
+DA:74,1
+DA:75,1
+DA:76,1
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,1
+DA:84,1
+DA:85,1
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:93,1
+BRDA:48,248,0,1
+BRDA:48,248,1,1
+BRDA:60,339,0,0
+BRDA:60,339,1,1
+BRDA:90,933,0,0
+BRDA:90,933,1,0
+FN:97,System.Void ClientPartAPI.Controllers.BrandController/<GetByIdAsync>d__5::MoveNext()
+FNDA:2,System.Void ClientPartAPI.Controllers.BrandController/<GetByIdAsync>d__5::MoveNext()
+DA:98,2
+DA:100,2
+DA:101,2
+DA:102,2
+DA:103,1
+DA:104,1
+DA:105,1
+DA:108,1
+DA:109,1
+DA:110,1
+DA:114,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:119,2
+BRDA:102,173,0,1
+BRDA:102,173,1,1
+FN:124,System.Void ClientPartAPI.Controllers.BrandController/<PostAsync>d__6::MoveNext()
+FNDA:2,System.Void ClientPartAPI.Controllers.BrandController/<PostAsync>d__6::MoveNext()
+DA:125,2
+DA:127,2
+DA:128,2
+DA:129,1
+DA:130,1
+DA:131,1
+DA:133,1
+DA:134,0
+DA:135,0
+DA:136,0
+DA:138,1
+DA:141,1
+DA:143,0
+DA:144,0
+DA:145,0
+DA:146,0
+DA:148,2
+BRDA:128,38,0,1
+BRDA:128,38,1,1
+BRDA:133,111,0,0
+BRDA:133,111,1,1
+FN:153,System.Void ClientPartAPI.Controllers.BrandController/<UpdateAsync>d__7::MoveNext()
+FNDA:2,System.Void ClientPartAPI.Controllers.BrandController/<UpdateAsync>d__7::MoveNext()
+DA:154,2
+DA:156,2
+DA:157,2
+DA:158,1
+DA:159,1
+DA:160,1
+DA:162,1
+DA:163,0
+DA:164,0
+DA:165,0
+DA:168,1
+DA:169,1
+DA:171,0
+DA:172,0
+DA:173,0
+DA:174,0
+DA:176,2
+BRDA:157,38,0,1
+BRDA:157,38,1,1
+BRDA:162,111,0,0
+BRDA:162,111,1,1
+LF:117
+LH:78
+BRF:18
+BRH:13
+FNF:6
+FNH:6
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.API\Controllers\CategoryController.cs
+FN:21,System.Void ClientPartAPI.Controllers.CategoryController::.ctor(PARTS.BLL.Services.Interaces.ICategoryService,Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.CategoryController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache)
+FNDA:9,System.Void ClientPartAPI.Controllers.CategoryController::.ctor(PARTS.BLL.Services.Interaces.ICategoryService,Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.CategoryController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache)
+DA:22,9
+DA:23,9
+DA:24,9
+DA:25,9
+DA:26,9
+DA:27,9
+DA:28,9
+DA:29,9
+DA:30,9
+DA:31,9
+FN:180,System.Void ClientPartAPI.Controllers.CategoryController/<DeleteByIdAsync>d__8::MoveNext()
+FNDA:2,System.Void ClientPartAPI.Controllers.CategoryController/<DeleteByIdAsync>d__8::MoveNext()
+DA:181,2
+DA:183,2
+DA:184,2
+DA:185,2
+DA:186,1
+DA:187,1
+DA:188,1
+DA:191,1
+DA:192,1
+DA:194,0
+DA:195,0
+DA:196,0
+DA:197,0
+DA:199,2
+BRDA:185,185,0,1
+BRDA:185,185,1,1
+FN:35,System.Void ClientPartAPI.Controllers.CategoryController/<GetAllAsync>d__4::MoveNext()
+FNDA:1,System.Void ClientPartAPI.Controllers.CategoryController/<GetAllAsync>d__4::MoveNext()
+DA:36,1
+DA:38,1
+DA:39,1
+DA:41,1
+DA:42,1
+DA:45,1
+DA:46,1
+DA:47,1
+DA:48,1
+DA:49,1
+DA:50,1
+DA:51,1
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:58,1
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:67,1
+DA:68,1
+DA:70,1
+DA:71,1
+DA:72,1
+DA:73,1
+DA:74,1
+DA:75,1
+DA:76,1
+DA:77,1
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,1
+DA:84,1
+DA:85,1
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:92,1
+BRDA:47,248,0,1
+BRDA:47,248,1,1
+BRDA:58,339,0,0
+BRDA:60,356,0,0
+BRDA:60,356,1,0
+BRDA:58,339,1,1
+BRDA:89,951,0,0
+BRDA:89,951,1,0
+FN:97,System.Void ClientPartAPI.Controllers.CategoryController/<GetByIdAsync>d__5::MoveNext()
+FNDA:2,System.Void ClientPartAPI.Controllers.CategoryController/<GetByIdAsync>d__5::MoveNext()
+DA:98,2
+DA:100,2
+DA:101,2
+DA:102,2
+DA:103,1
+DA:104,1
+DA:105,1
+DA:108,1
+DA:109,1
+DA:110,1
+DA:114,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:119,2
+BRDA:102,173,0,1
+BRDA:102,173,1,1
+FN:124,System.Void ClientPartAPI.Controllers.CategoryController/<PostAsync>d__6::MoveNext()
+FNDA:2,System.Void ClientPartAPI.Controllers.CategoryController/<PostAsync>d__6::MoveNext()
+DA:125,2
+DA:127,2
+DA:128,2
+DA:129,1
+DA:130,1
+DA:131,1
+DA:133,1
+DA:134,0
+DA:135,0
+DA:136,0
+DA:138,1
+DA:141,1
+DA:143,0
+DA:144,0
+DA:145,0
+DA:146,0
+DA:148,2
+BRDA:128,38,0,1
+BRDA:128,38,1,1
+BRDA:133,111,0,0
+BRDA:133,111,1,1
+FN:153,System.Void ClientPartAPI.Controllers.CategoryController/<UpdateAsync>d__7::MoveNext()
+FNDA:2,System.Void ClientPartAPI.Controllers.CategoryController/<UpdateAsync>d__7::MoveNext()
+DA:154,2
+DA:156,2
+DA:157,2
+DA:158,1
+DA:159,1
+DA:160,1
+DA:162,1
+DA:163,0
+DA:164,0
+DA:165,0
+DA:168,1
+DA:169,1
+DA:171,0
+DA:172,0
+DA:173,0
+DA:174,0
+DA:176,2
+BRDA:157,38,0,1
+BRDA:157,38,1,1
+BRDA:162,111,0,0
+BRDA:162,111,1,1
+LF:120
+LH:78
+BRF:20
+BRH:13
+FNF:6
+FNH:6
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.API\Controllers\CategoryImageController.cs
+FN:21,System.Void ClientPartAPI.Controllers.CategoryImageController::.ctor(Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.CategoryImageController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache,PARTS.BLL.Services.Interaces.ICategoryImageService)
+FNDA:0,System.Void ClientPartAPI.Controllers.CategoryImageController::.ctor(Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.CategoryImageController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache,PARTS.BLL.Services.Interaces.ICategoryImageService)
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+FN:156,System.Void ClientPartAPI.Controllers.CategoryImageController/<DeleteByIdAsync>d__8::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.CategoryImageController/<DeleteByIdAsync>d__8::MoveNext()
+DA:157,0
+DA:159,0
+DA:160,0
+DA:161,0
+DA:162,0
+DA:163,0
+DA:164,0
+DA:167,0
+DA:168,0
+DA:170,0
+DA:171,0
+DA:172,0
+DA:173,0
+DA:175,0
+BRDA:161,185,0,0
+BRDA:161,185,1,0
+FN:36,System.Void ClientPartAPI.Controllers.CategoryImageController/<GetAllAsync>d__4::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.CategoryImageController/<GetAllAsync>d__4::MoveNext()
+DA:37,0
+DA:39,0
+DA:41,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:69,0
+BRDA:45,231,0,0
+BRDA:45,231,1,0
+BRDA:66,752,0,0
+BRDA:66,752,1,0
+FN:73,System.Void ClientPartAPI.Controllers.CategoryImageController/<GetByIdAsync>d__5::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.CategoryImageController/<GetByIdAsync>d__5::MoveNext()
+DA:74,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:95,0
+BRDA:78,173,0,0
+BRDA:78,173,1,0
+FN:100,System.Void ClientPartAPI.Controllers.CategoryImageController/<PostAsync>d__6::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.CategoryImageController/<PostAsync>d__6::MoveNext()
+DA:101,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:114,0
+DA:117,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:124,0
+BRDA:104,38,0,0
+BRDA:104,38,1,0
+BRDA:109,111,0,0
+BRDA:109,111,1,0
+FN:129,System.Void ClientPartAPI.Controllers.CategoryImageController/<UpdateAsync>d__7::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.CategoryImageController/<UpdateAsync>d__7::MoveNext()
+DA:130,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:144,0
+DA:145,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:152,0
+BRDA:133,38,0,0
+BRDA:133,38,1,0
+BRDA:138,111,0,0
+BRDA:138,111,1,0
+LF:100
+LH:0
+BRF:16
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.API\Controllers\EngineController.cs
+FN:21,System.Void ClientPartAPI.Controllers.EngineController::.ctor(Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.EngineController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache,PARTS.BLL.Services.Interaces.IEngineService)
+FNDA:0,System.Void ClientPartAPI.Controllers.EngineController::.ctor(Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.EngineController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache,PARTS.BLL.Services.Interaces.IEngineService)
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+FN:156,System.Void ClientPartAPI.Controllers.EngineController/<DeleteByIdAsync>d__8::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.EngineController/<DeleteByIdAsync>d__8::MoveNext()
+DA:157,0
+DA:159,0
+DA:160,0
+DA:161,0
+DA:162,0
+DA:163,0
+DA:164,0
+DA:167,0
+DA:168,0
+DA:170,0
+DA:171,0
+DA:172,0
+DA:173,0
+DA:175,0
+BRDA:161,185,0,0
+BRDA:161,185,1,0
+FN:36,System.Void ClientPartAPI.Controllers.EngineController/<GetAllAsync>d__4::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.EngineController/<GetAllAsync>d__4::MoveNext()
+DA:37,0
+DA:39,0
+DA:41,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:69,0
+BRDA:45,231,0,0
+BRDA:45,231,1,0
+BRDA:66,752,0,0
+BRDA:66,752,1,0
+FN:73,System.Void ClientPartAPI.Controllers.EngineController/<GetByIdAsync>d__5::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.EngineController/<GetByIdAsync>d__5::MoveNext()
+DA:74,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:95,0
+BRDA:78,173,0,0
+BRDA:78,173,1,0
+FN:100,System.Void ClientPartAPI.Controllers.EngineController/<PostAsync>d__6::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.EngineController/<PostAsync>d__6::MoveNext()
+DA:101,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:114,0
+DA:117,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:124,0
+BRDA:104,38,0,0
+BRDA:104,38,1,0
+BRDA:109,111,0,0
+BRDA:109,111,1,0
+FN:129,System.Void ClientPartAPI.Controllers.EngineController/<UpdateAsync>d__7::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.EngineController/<UpdateAsync>d__7::MoveNext()
+DA:130,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:144,0
+DA:145,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:152,0
+BRDA:133,38,0,0
+BRDA:133,38,1,0
+BRDA:138,111,0,0
+BRDA:138,111,1,0
+LF:100
+LH:0
+BRF:16
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.API\Controllers\MakeController.cs
+FN:21,System.Void ClientPartAPI.Controllers.MakeController::.ctor(Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.MakeController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache,PARTS.BLL.Services.Interaces.IMakeService)
+FNDA:0,System.Void ClientPartAPI.Controllers.MakeController::.ctor(Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.MakeController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache,PARTS.BLL.Services.Interaces.IMakeService)
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+FN:156,System.Void ClientPartAPI.Controllers.MakeController/<DeleteByIdAsync>d__8::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.MakeController/<DeleteByIdAsync>d__8::MoveNext()
+DA:157,0
+DA:159,0
+DA:160,0
+DA:161,0
+DA:162,0
+DA:163,0
+DA:164,0
+DA:167,0
+DA:168,0
+DA:170,0
+DA:171,0
+DA:172,0
+DA:173,0
+DA:175,0
+BRDA:161,185,0,0
+BRDA:161,185,1,0
+FN:36,System.Void ClientPartAPI.Controllers.MakeController/<GetAllAsync>d__4::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.MakeController/<GetAllAsync>d__4::MoveNext()
+DA:37,0
+DA:39,0
+DA:41,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:69,0
+BRDA:45,231,0,0
+BRDA:45,231,1,0
+BRDA:66,752,0,0
+BRDA:66,752,1,0
+FN:73,System.Void ClientPartAPI.Controllers.MakeController/<GetByIdAsync>d__5::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.MakeController/<GetByIdAsync>d__5::MoveNext()
+DA:74,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:95,0
+BRDA:78,173,0,0
+BRDA:78,173,1,0
+FN:100,System.Void ClientPartAPI.Controllers.MakeController/<PostAsync>d__6::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.MakeController/<PostAsync>d__6::MoveNext()
+DA:101,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:114,0
+DA:117,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:124,0
+BRDA:104,38,0,0
+BRDA:104,38,1,0
+BRDA:109,111,0,0
+BRDA:109,111,1,0
+FN:129,System.Void ClientPartAPI.Controllers.MakeController/<UpdateAsync>d__7::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.MakeController/<UpdateAsync>d__7::MoveNext()
+DA:130,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:144,0
+DA:145,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:152,0
+BRDA:133,38,0,0
+BRDA:133,38,1,0
+BRDA:138,111,0,0
+BRDA:138,111,1,0
+LF:100
+LH:0
+BRF:16
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.API\Controllers\ModelController.cs
+FN:22,System.Void ClientPartAPI.Controllers.ModelController::.ctor(Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.ModelController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache,PARTS.BLL.Services.Interaces.IModelService)
+FNDA:0,System.Void ClientPartAPI.Controllers.ModelController::.ctor(Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.ModelController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache,PARTS.BLL.Services.Interaces.IModelService)
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+FN:157,System.Void ClientPartAPI.Controllers.ModelController/<DeleteByIdAsync>d__8::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.ModelController/<DeleteByIdAsync>d__8::MoveNext()
+DA:158,0
+DA:160,0
+DA:161,0
+DA:162,0
+DA:163,0
+DA:164,0
+DA:165,0
+DA:168,0
+DA:169,0
+DA:171,0
+DA:172,0
+DA:173,0
+DA:174,0
+DA:176,0
+BRDA:162,185,0,0
+BRDA:162,185,1,0
+FN:37,System.Void ClientPartAPI.Controllers.ModelController/<GetAllAsync>d__4::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.ModelController/<GetAllAsync>d__4::MoveNext()
+DA:38,0
+DA:40,0
+DA:42,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:70,0
+BRDA:46,231,0,0
+BRDA:46,231,1,0
+BRDA:67,752,0,0
+BRDA:67,752,1,0
+FN:74,System.Void ClientPartAPI.Controllers.ModelController/<GetByIdAsync>d__5::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.ModelController/<GetByIdAsync>d__5::MoveNext()
+DA:75,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:96,0
+BRDA:79,173,0,0
+BRDA:79,173,1,0
+FN:101,System.Void ClientPartAPI.Controllers.ModelController/<PostAsync>d__6::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.ModelController/<PostAsync>d__6::MoveNext()
+DA:102,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:115,0
+DA:118,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:125,0
+BRDA:105,38,0,0
+BRDA:105,38,1,0
+BRDA:110,111,0,0
+BRDA:110,111,1,0
+FN:130,System.Void ClientPartAPI.Controllers.ModelController/<UpdateAsync>d__7::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.ModelController/<UpdateAsync>d__7::MoveNext()
+DA:131,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:142,0
+DA:145,0
+DA:146,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:151,0
+DA:153,0
+BRDA:134,38,0,0
+BRDA:134,38,1,0
+BRDA:139,111,0,0
+BRDA:139,111,1,0
+LF:100
+LH:0
+BRF:16
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.API\Controllers\OrderController.cs
+FN:22,System.Void ClientPartAPI.Controllers.OrderController::.ctor(PARTS.BLL.Services.Interaces.IOrderService,Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.OrderController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache)
+FNDA:0,System.Void ClientPartAPI.Controllers.OrderController::.ctor(PARTS.BLL.Services.Interaces.IOrderService,Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.OrderController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache)
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+FN:160,System.Void ClientPartAPI.Controllers.OrderController/<AddPartToOrderAsync>d__8::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.OrderController/<AddPartToOrderAsync>d__8::MoveNext()
+DA:161,0
+DA:163,0
+DA:165,0
+DA:166,0
+DA:167,0
+DA:168,0
+DA:170,0
+DA:173,0
+DA:175,0
+DA:176,0
+DA:177,0
+DA:178,0
+DA:180,0
+BRDA:165,48,0,0
+BRDA:165,48,1,0
+FN:233,System.Void ClientPartAPI.Controllers.OrderController/<DeleteByIdAsync>d__11::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.OrderController/<DeleteByIdAsync>d__11::MoveNext()
+DA:234,0
+DA:236,0
+DA:237,0
+DA:238,0
+DA:239,0
+DA:240,0
+DA:241,0
+DA:244,0
+DA:245,0
+DA:247,0
+DA:248,0
+DA:249,0
+DA:250,0
+DA:252,0
+BRDA:238,185,0,0
+BRDA:238,185,1,0
+FN:36,System.Void ClientPartAPI.Controllers.OrderController/<GetAllAsync>d__4::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.OrderController/<GetAllAsync>d__4::MoveNext()
+DA:37,0
+DA:39,0
+DA:41,0
+DA:43,0
+DA:44,0
+DA:46,0
+DA:47,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:56,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:76,0
+BRDA:51,264,0,0
+BRDA:51,264,1,0
+BRDA:73,785,0,0
+BRDA:73,785,1,0
+FN:80,System.Void ClientPartAPI.Controllers.OrderController/<GetByIdAsync>d__5::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.OrderController/<GetByIdAsync>d__5::MoveNext()
+DA:81,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:102,0
+BRDA:85,173,0,0
+BRDA:85,173,1,0
+FN:105,System.Void ClientPartAPI.Controllers.OrderController/<GetNewOrderAsync>d__6::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.OrderController/<GetNewOrderAsync>d__6::MoveNext()
+DA:106,0
+DA:108,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:129,0
+BRDA:112,194,0,0
+BRDA:112,194,1,0
+FN:134,System.Void ClientPartAPI.Controllers.OrderController/<PostAsync>d__7::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.OrderController/<PostAsync>d__7::MoveNext()
+DA:135,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:143,0
+DA:144,0
+DA:145,0
+DA:146,0
+DA:148,0
+DA:151,0
+DA:153,0
+DA:154,0
+DA:155,0
+DA:156,0
+DA:158,0
+BRDA:138,38,0,0
+BRDA:138,38,1,0
+BRDA:143,111,0,0
+BRDA:143,111,1,0
+FN:182,System.Void ClientPartAPI.Controllers.OrderController/<RemovePartFromOrderAsync>d__9::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.OrderController/<RemovePartFromOrderAsync>d__9::MoveNext()
+DA:183,0
+DA:185,0
+DA:187,0
+DA:188,0
+DA:189,0
+DA:190,0
+DA:192,0
+DA:195,0
+DA:197,0
+DA:198,0
+DA:199,0
+DA:200,0
+DA:202,0
+BRDA:187,48,0,0
+BRDA:187,48,1,0
+FN:206,System.Void ClientPartAPI.Controllers.OrderController/<UpdateAsync>d__10::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.OrderController/<UpdateAsync>d__10::MoveNext()
+DA:207,0
+DA:209,0
+DA:210,0
+DA:211,0
+DA:212,0
+DA:213,0
+DA:215,0
+DA:216,0
+DA:217,0
+DA:218,0
+DA:221,0
+DA:222,0
+DA:224,0
+DA:225,0
+DA:226,0
+DA:227,0
+DA:229,0
+BRDA:210,38,0,0
+BRDA:210,38,1,0
+BRDA:215,111,0,0
+BRDA:215,111,1,0
+LF:145
+LH:0
+BRF:22
+BRH:0
+FNF:9
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.API\Controllers\PartController.cs
+FN:22,System.Void ClientPartAPI.Controllers.PartController::.ctor(Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.PartController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache,PARTS.BLL.Services.Interaces.IPartService)
+FNDA:10,System.Void ClientPartAPI.Controllers.PartController::.ctor(Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.PartController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache,PARTS.BLL.Services.Interaces.IPartService)
+DA:23,10
+DA:24,10
+DA:25,10
+DA:26,10
+DA:27,10
+DA:28,10
+DA:29,10
+DA:30,10
+DA:31,10
+DA:32,10
+DA:33,10
+FN:204,System.Void ClientPartAPI.Controllers.PartController/<DeleteByIdAsync>d__9::MoveNext()
+FNDA:2,System.Void ClientPartAPI.Controllers.PartController/<DeleteByIdAsync>d__9::MoveNext()
+DA:205,2
+DA:207,2
+DA:208,2
+DA:209,2
+DA:210,1
+DA:211,1
+DA:212,1
+DA:215,1
+DA:216,1
+DA:218,0
+DA:219,0
+DA:220,0
+DA:221,0
+DA:223,2
+BRDA:209,185,0,1
+BRDA:209,185,1,1
+FN:37,System.Void ClientPartAPI.Controllers.PartController/<GetAllAsync>d__4::MoveNext()
+FNDA:1,System.Void ClientPartAPI.Controllers.PartController/<GetAllAsync>d__4::MoveNext()
+DA:38,1
+DA:40,1
+DA:41,1
+DA:43,1
+DA:44,1
+DA:47,1
+DA:48,1
+DA:49,1
+DA:50,1
+DA:51,1
+DA:52,1
+DA:53,1
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:59,1
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:68,1
+DA:69,1
+DA:71,1
+DA:72,1
+DA:73,1
+DA:74,1
+DA:75,1
+DA:76,1
+DA:77,1
+DA:78,1
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,1
+DA:85,1
+DA:86,1
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:93,1
+BRDA:49,248,0,1
+BRDA:49,248,1,1
+BRDA:59,332,0,0
+BRDA:61,349,0,0
+BRDA:61,349,1,0
+BRDA:59,332,1,1
+BRDA:90,944,0,0
+BRDA:90,944,1,0
+FN:121,System.Void ClientPartAPI.Controllers.PartController/<GetByIdAsync>d__6::MoveNext()
+FNDA:2,System.Void ClientPartAPI.Controllers.PartController/<GetByIdAsync>d__6::MoveNext()
+DA:122,2
+DA:124,2
+DA:125,2
+DA:126,2
+DA:127,1
+DA:128,1
+DA:129,1
+DA:132,1
+DA:133,1
+DA:134,1
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:143,2
+BRDA:126,173,0,1
+BRDA:126,173,1,1
+FN:96,System.Void ClientPartAPI.Controllers.PartController/<GetPartsByOrderIdAsync>d__5::MoveNext()
+FNDA:1,System.Void ClientPartAPI.Controllers.PartController/<GetPartsByOrderIdAsync>d__5::MoveNext()
+DA:97,1
+DA:99,1
+DA:104,1
+DA:106,1
+DA:107,1
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:115,1
+BRDA:112,251,0,0
+BRDA:112,251,1,0
+FN:148,System.Void ClientPartAPI.Controllers.PartController/<PostAsync>d__7::MoveNext()
+FNDA:2,System.Void ClientPartAPI.Controllers.PartController/<PostAsync>d__7::MoveNext()
+DA:149,2
+DA:151,2
+DA:152,2
+DA:153,1
+DA:154,1
+DA:155,1
+DA:157,1
+DA:158,0
+DA:159,0
+DA:160,0
+DA:162,1
+DA:165,1
+DA:167,0
+DA:168,0
+DA:169,0
+DA:170,0
+DA:172,2
+BRDA:152,38,0,1
+BRDA:152,38,1,1
+BRDA:157,111,0,0
+BRDA:157,111,1,1
+FN:177,System.Void ClientPartAPI.Controllers.PartController/<UpdateAsync>d__8::MoveNext()
+FNDA:2,System.Void ClientPartAPI.Controllers.PartController/<UpdateAsync>d__8::MoveNext()
+DA:178,2
+DA:180,2
+DA:181,2
+DA:182,1
+DA:183,1
+DA:184,1
+DA:186,1
+DA:187,0
+DA:188,0
+DA:189,0
+DA:192,1
+DA:193,1
+DA:195,0
+DA:196,0
+DA:197,0
+DA:198,0
+DA:200,2
+BRDA:181,38,0,1
+BRDA:181,38,1,1
+BRDA:186,111,0,0
+BRDA:186,111,1,1
+LF:130
+LH:85
+BRF:22
+BRH:13
+FNF:7
+FNH:7
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.API\Controllers\PartImageController.cs
+FN:21,System.Void ClientPartAPI.Controllers.PartImageController::.ctor(Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.PartImageController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache,PARTS.BLL.Services.Interaces.IPartImageService)
+FNDA:0,System.Void ClientPartAPI.Controllers.PartImageController::.ctor(Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.PartImageController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache,PARTS.BLL.Services.Interaces.IPartImageService)
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+FN:156,System.Void ClientPartAPI.Controllers.PartImageController/<DeleteByIdAsync>d__8::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.PartImageController/<DeleteByIdAsync>d__8::MoveNext()
+DA:157,0
+DA:159,0
+DA:160,0
+DA:161,0
+DA:162,0
+DA:163,0
+DA:164,0
+DA:167,0
+DA:168,0
+DA:170,0
+DA:171,0
+DA:172,0
+DA:173,0
+DA:175,0
+BRDA:161,185,0,0
+BRDA:161,185,1,0
+FN:36,System.Void ClientPartAPI.Controllers.PartImageController/<GetAllAsync>d__4::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.PartImageController/<GetAllAsync>d__4::MoveNext()
+DA:37,0
+DA:39,0
+DA:41,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:69,0
+BRDA:45,231,0,0
+BRDA:45,231,1,0
+BRDA:66,752,0,0
+BRDA:66,752,1,0
+FN:73,System.Void ClientPartAPI.Controllers.PartImageController/<GetByIdAsync>d__5::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.PartImageController/<GetByIdAsync>d__5::MoveNext()
+DA:74,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:95,0
+BRDA:78,173,0,0
+BRDA:78,173,1,0
+FN:100,System.Void ClientPartAPI.Controllers.PartImageController/<PostAsync>d__6::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.PartImageController/<PostAsync>d__6::MoveNext()
+DA:101,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:114,0
+DA:117,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:124,0
+BRDA:104,38,0,0
+BRDA:104,38,1,0
+BRDA:109,111,0,0
+BRDA:109,111,1,0
+FN:129,System.Void ClientPartAPI.Controllers.PartImageController/<UpdateAsync>d__7::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.PartImageController/<UpdateAsync>d__7::MoveNext()
+DA:130,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:144,0
+DA:145,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:152,0
+BRDA:133,38,0,0
+BRDA:133,38,1,0
+BRDA:138,111,0,0
+BRDA:138,111,1,0
+LF:100
+LH:0
+BRF:16
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.API\Controllers\SubModelController.cs
+FN:21,System.Void ClientPartAPI.Controllers.SubModelController::.ctor(Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.SubModelController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache,PARTS.BLL.Services.Interaces.ISubModelService)
+FNDA:0,System.Void ClientPartAPI.Controllers.SubModelController::.ctor(Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.SubModelController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache,PARTS.BLL.Services.Interaces.ISubModelService)
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+FN:156,System.Void ClientPartAPI.Controllers.SubModelController/<DeleteByIdAsync>d__8::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.SubModelController/<DeleteByIdAsync>d__8::MoveNext()
+DA:157,0
+DA:159,0
+DA:160,0
+DA:161,0
+DA:162,0
+DA:163,0
+DA:164,0
+DA:167,0
+DA:168,0
+DA:170,0
+DA:171,0
+DA:172,0
+DA:173,0
+DA:175,0
+BRDA:161,185,0,0
+BRDA:161,185,1,0
+FN:36,System.Void ClientPartAPI.Controllers.SubModelController/<GetAllAsync>d__4::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.SubModelController/<GetAllAsync>d__4::MoveNext()
+DA:37,0
+DA:39,0
+DA:41,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:69,0
+BRDA:45,231,0,0
+BRDA:45,231,1,0
+BRDA:66,752,0,0
+BRDA:66,752,1,0
+FN:73,System.Void ClientPartAPI.Controllers.SubModelController/<GetByIdAsync>d__5::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.SubModelController/<GetByIdAsync>d__5::MoveNext()
+DA:74,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:95,0
+BRDA:78,173,0,0
+BRDA:78,173,1,0
+FN:100,System.Void ClientPartAPI.Controllers.SubModelController/<PostAsync>d__6::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.SubModelController/<PostAsync>d__6::MoveNext()
+DA:101,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:114,0
+DA:117,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:124,0
+BRDA:104,38,0,0
+BRDA:104,38,1,0
+BRDA:109,111,0,0
+BRDA:109,111,1,0
+FN:129,System.Void ClientPartAPI.Controllers.SubModelController/<UpdateAsync>d__7::MoveNext()
+FNDA:0,System.Void ClientPartAPI.Controllers.SubModelController/<UpdateAsync>d__7::MoveNext()
+DA:130,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:144,0
+DA:145,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:152,0
+BRDA:133,38,0,0
+BRDA:133,38,1,0
+BRDA:138,111,0,0
+BRDA:138,111,1,0
+LF:100
+LH:0
+BRF:16
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.API\Controllers\VehicleController.cs
+FN:21,System.Void ClientPartAPI.Controllers.VehicleController::.ctor(Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.VehicleController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache,PARTS.BLL.Services.Interaces.IVehicleService)
+FNDA:9,System.Void ClientPartAPI.Controllers.VehicleController::.ctor(Microsoft.Extensions.Logging.ILogger`1<ClientPartAPI.Controllers.VehicleController>,Microsoft.Extensions.Caching.Distributed.IDistributedCache,PARTS.BLL.Services.Interaces.IVehicleService)
+DA:22,9
+DA:23,9
+DA:24,9
+DA:25,9
+DA:26,9
+DA:27,9
+DA:28,9
+DA:29,9
+DA:30,9
+DA:31,9
+DA:32,9
+FN:173,System.Void ClientPartAPI.Controllers.VehicleController/<DeleteByIdAsync>d__8::MoveNext()
+FNDA:2,System.Void ClientPartAPI.Controllers.VehicleController/<DeleteByIdAsync>d__8::MoveNext()
+DA:174,2
+DA:176,2
+DA:177,2
+DA:178,2
+DA:179,1
+DA:180,1
+DA:181,1
+DA:184,1
+DA:185,1
+DA:187,0
+DA:188,0
+DA:189,0
+DA:190,0
+DA:192,2
+BRDA:178,185,0,1
+BRDA:178,185,1,1
+FN:36,System.Void ClientPartAPI.Controllers.VehicleController/<GetAllAsync>d__4::MoveNext()
+FNDA:1,System.Void ClientPartAPI.Controllers.VehicleController/<GetAllAsync>d__4::MoveNext()
+DA:37,1
+DA:39,1
+DA:41,1
+DA:43,1
+DA:44,1
+DA:46,1
+DA:47,1
+DA:49,1
+DA:50,0
+DA:51,0
+DA:52,0
+DA:54,1
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:60,1
+DA:61,1
+DA:62,1
+DA:63,1
+DA:64,1
+DA:65,1
+DA:66,1
+DA:67,1
+DA:68,1
+DA:69,1
+DA:70,0
+DA:71,0
+DA:73,0
+DA:75,1
+DA:76,1
+DA:77,1
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:85,1
+BRDA:54,269,0,0
+BRDA:54,269,1,1
+BRDA:82,820,0,0
+BRDA:82,820,1,0
+FN:89,System.Void ClientPartAPI.Controllers.VehicleController/<GetByIdAsync>d__5::MoveNext()
+FNDA:2,System.Void ClientPartAPI.Controllers.VehicleController/<GetByIdAsync>d__5::MoveNext()
+DA:90,2
+DA:92,2
+DA:93,2
+DA:94,2
+DA:95,1
+DA:96,1
+DA:97,1
+DA:100,1
+DA:101,1
+DA:102,1
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:111,2
+BRDA:94,173,0,1
+BRDA:94,173,1,1
+FN:117,System.Void ClientPartAPI.Controllers.VehicleController/<PostAsync>d__6::MoveNext()
+FNDA:2,System.Void ClientPartAPI.Controllers.VehicleController/<PostAsync>d__6::MoveNext()
+DA:118,2
+DA:120,2
+DA:121,2
+DA:122,1
+DA:123,1
+DA:124,1
+DA:126,1
+DA:127,0
+DA:128,0
+DA:129,0
+DA:131,1
+DA:134,1
+DA:136,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:141,2
+BRDA:121,38,0,1
+BRDA:121,38,1,1
+BRDA:126,116,0,0
+BRDA:126,116,1,1
+FN:146,System.Void ClientPartAPI.Controllers.VehicleController/<UpdateAsync>d__7::MoveNext()
+FNDA:2,System.Void ClientPartAPI.Controllers.VehicleController/<UpdateAsync>d__7::MoveNext()
+DA:147,2
+DA:149,2
+DA:150,2
+DA:151,1
+DA:152,1
+DA:153,1
+DA:155,1
+DA:156,0
+DA:157,0
+DA:158,0
+DA:161,1
+DA:162,1
+DA:164,0
+DA:165,0
+DA:166,0
+DA:167,0
+DA:169,2
+BRDA:150,38,0,1
+BRDA:150,38,1,1
+BRDA:155,111,0,0
+BRDA:155,111,1,1
+LF:111
+LH:75
+BRF:16
+BRH:11
+FNF:6
+FNH:6
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DependencyInjection.cs
+FN:10,Microsoft.Extensions.DependencyInjection.IServiceCollection PARTS.BLL.DependencyInjection::AddPartsBll(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+FNDA:0,Microsoft.Extensions.DependencyInjection.IServiceCollection PARTS.BLL.DependencyInjection::AddPartsBll(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+DA:11,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+LF:15
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\Services\BrandService.cs
+FN:10,System.Void PARTS.BLL.Services.BrandService::.ctor(PARTS.DAL.Interfaces.IBrandRepository,AutoMapper.IMapper)
+FNDA:5,System.Void PARTS.BLL.Services.BrandService::.ctor(PARTS.DAL.Interfaces.IBrandRepository,AutoMapper.IMapper)
+DA:11,5
+DA:12,5
+DA:13,5
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\Services\CategoryImageService.cs
+FN:11,System.Void PARTS.BLL.Services.CategoryImageService::.ctor(PARTS.DAL.Interfaces.ICategoryImageRepository,AutoMapper.IMapper)
+FNDA:0,System.Void PARTS.BLL.Services.CategoryImageService::.ctor(PARTS.DAL.Interfaces.ICategoryImageRepository,AutoMapper.IMapper)
+DA:12,0
+DA:13,0
+DA:14,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\Services\CategoryService.cs
+FN:11,System.Void PARTS.BLL.Services.CategoryService::.ctor(PARTS.DAL.Interfaces.ICategoryRepository,AutoMapper.IMapper)
+FNDA:5,System.Void PARTS.BLL.Services.CategoryService::.ctor(PARTS.DAL.Interfaces.ICategoryRepository,AutoMapper.IMapper)
+DA:12,5
+DA:13,5
+DA:14,5
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\Services\EngineService.cs
+FN:11,System.Void PARTS.BLL.Services.EngineService::.ctor(PARTS.DAL.Interfaces.IEngineRepository,AutoMapper.IMapper)
+FNDA:0,System.Void PARTS.BLL.Services.EngineService::.ctor(PARTS.DAL.Interfaces.IEngineRepository,AutoMapper.IMapper)
+DA:12,0
+DA:13,0
+DA:14,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\Services\GenericService.cs
+FN:17,System.Void PARTS.BLL.Services.GenericService`3::.ctor(PARTS.DAL.Interfaces.IGenericRepository`1<TEntity>,AutoMapper.IMapper)
+FNDA:16,System.Void PARTS.BLL.Services.GenericService`3::.ctor(PARTS.DAL.Interfaces.IGenericRepository`1<TEntity>,AutoMapper.IMapper)
+DA:18,16
+DA:19,16
+DA:20,16
+DA:21,16
+DA:22,16
+FN:75,System.Void PARTS.BLL.Services.GenericService`3/<DeleteByIdAsync>d__7::MoveNext()
+FNDA:3,System.Void PARTS.BLL.Services.GenericService`3/<DeleteByIdAsync>d__7::MoveNext()
+DA:76,3
+DA:78,3
+DA:79,3
+DA:80,3
+DA:81,0
+DA:82,0
+DA:83,0
+DA:85,3
+FN:23,System.Void PARTS.BLL.Services.GenericService`3/<GetAllAsync>d__3::MoveNext()
+FNDA:3,System.Void PARTS.BLL.Services.GenericService`3/<GetAllAsync>d__3::MoveNext()
+DA:24,3
+DA:26,3
+DA:27,3
+DA:28,3
+DA:30,0
+DA:31,0
+DA:32,0
+DA:34,3
+FN:35,System.Void PARTS.BLL.Services.GenericService`3/<GetByIdAsync>d__4::MoveNext()
+FNDA:3,System.Void PARTS.BLL.Services.GenericService`3/<GetByIdAsync>d__4::MoveNext()
+DA:36,3
+DA:38,3
+DA:39,3
+DA:40,3
+DA:42,0
+DA:43,0
+DA:44,0
+DA:46,3
+FN:47,System.Void PARTS.BLL.Services.GenericService`3/<PostAsync>d__5::MoveNext()
+FNDA:3,System.Void PARTS.BLL.Services.GenericService`3/<PostAsync>d__5::MoveNext()
+DA:48,3
+DA:50,3
+DA:51,3
+DA:52,3
+DA:53,3
+DA:55,0
+DA:56,0
+DA:57,0
+DA:59,3
+FN:60,System.Void PARTS.BLL.Services.GenericService`3/<UpdateAsync>d__6::MoveNext()
+FNDA:3,System.Void PARTS.BLL.Services.GenericService`3/<UpdateAsync>d__6::MoveNext()
+DA:61,3
+DA:63,3
+DA:64,3
+DA:65,3
+DA:66,3
+DA:67,3
+DA:70,0
+DA:71,0
+DA:72,0
+DA:74,3
+LF:48
+LH:33
+BRF:0
+BRH:0
+FNF:6
+FNH:6
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\Services\MakeService.cs
+FN:11,System.Void PARTS.BLL.Services.MakeService::.ctor(PARTS.DAL.Interfaces.IMakeRepository,AutoMapper.IMapper)
+FNDA:0,System.Void PARTS.BLL.Services.MakeService::.ctor(PARTS.DAL.Interfaces.IMakeRepository,AutoMapper.IMapper)
+DA:12,0
+DA:13,0
+DA:14,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\Services\ModelService.cs
+FN:11,System.Void PARTS.BLL.Services.ModelService::.ctor(PARTS.DAL.Interfaces.IModelRepository,AutoMapper.IMapper)
+FNDA:0,System.Void PARTS.BLL.Services.ModelService::.ctor(PARTS.DAL.Interfaces.IModelRepository,AutoMapper.IMapper)
+DA:12,0
+DA:13,0
+DA:14,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\Services\OrderService.cs
+FN:12,System.Void PARTS.BLL.Services.OrderService::.ctor(PARTS.DAL.Interfaces.IOrderRepository,AutoMapper.IMapper)
+FNDA:0,System.Void PARTS.BLL.Services.OrderService::.ctor(PARTS.DAL.Interfaces.IOrderRepository,AutoMapper.IMapper)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+FN:19,System.Void PARTS.BLL.Services.OrderService/<AddPartToOrderAsync>d__2::MoveNext()
+FNDA:0,System.Void PARTS.BLL.Services.OrderService/<AddPartToOrderAsync>d__2::MoveNext()
+DA:20,0
+DA:21,0
+DA:22,0
+FN:23,System.Void PARTS.BLL.Services.OrderService/<RemovePartFromOrderAsync>d__3::MoveNext()
+FNDA:0,System.Void PARTS.BLL.Services.OrderService/<RemovePartFromOrderAsync>d__3::MoveNext()
+DA:24,0
+DA:25,0
+DA:26,0
+LF:10
+LH:0
+BRF:0
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\Services\PartImageService.cs
+FN:11,System.Void PARTS.BLL.Services.PartImageService::.ctor(PARTS.DAL.Interfaces.IPartImageRepository,AutoMapper.IMapper)
+FNDA:0,System.Void PARTS.BLL.Services.PartImageService::.ctor(PARTS.DAL.Interfaces.IPartImageRepository,AutoMapper.IMapper)
+DA:12,0
+DA:13,0
+DA:14,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\Services\PartService.cs
+FN:11,System.Void PARTS.BLL.Services.PartService::.ctor(PARTS.DAL.Interfaces.IPartRepository,AutoMapper.IMapper)
+FNDA:6,System.Void PARTS.BLL.Services.PartService::.ctor(PARTS.DAL.Interfaces.IPartRepository,AutoMapper.IMapper)
+DA:12,6
+DA:13,6
+DA:14,6
+FN:21,System.Boolean PARTS.BLL.Services.PartService/<>c__DisplayClass1_0::<GetPartsByOrderId>b__0(PARTS.DAL.Entities.Item.Part)
+FNDA:7,System.Boolean PARTS.BLL.Services.PartService/<>c__DisplayClass1_0::<GetPartsByOrderId>b__0(PARTS.DAL.Entities.Item.Part)
+DA:22,7
+BRDA:22,13,0,1
+BRDA:22,13,1,3
+FN:16,System.Void PARTS.BLL.Services.PartService/<GetPartsByOrderId>d__1::MoveNext()
+FNDA:1,System.Void PARTS.BLL.Services.PartService/<GetPartsByOrderId>d__1::MoveNext()
+DA:17,1
+DA:20,1
+DA:21,1
+DA:23,1
+DA:24,1
+DA:26,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:33,1
+BRDA:23,236,0,1
+BRDA:23,236,1,0
+LF:14
+LH:10
+BRF:4
+BRH:3
+FNF:3
+FNH:3
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\Services\SubModelService.cs
+FN:11,System.Void PARTS.BLL.Services.SubModelService::.ctor(PARTS.DAL.Interfaces.ISubModelRepository,AutoMapper.IMapper)
+FNDA:0,System.Void PARTS.BLL.Services.SubModelService::.ctor(PARTS.DAL.Interfaces.ISubModelRepository,AutoMapper.IMapper)
+DA:12,0
+DA:13,0
+DA:14,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\Services\VehicleService.cs
+FN:12,System.Void PARTS.BLL.Services.VehicleService::.ctor(PARTS.DAL.Interfaces.IVehicleRepository,AutoMapper.IMapper)
+FNDA:0,System.Void PARTS.BLL.Services.VehicleService::.ctor(PARTS.DAL.Interfaces.IVehicleRepository,AutoMapper.IMapper)
+DA:13,0
+DA:14,0
+DA:15,0
+FN:17,System.Void PARTS.BLL.Services.VehicleService/<PostAsync>d__1::MoveNext()
+FNDA:0,System.Void PARTS.BLL.Services.VehicleService/<PostAsync>d__1::MoveNext()
+DA:18,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:30,0
+LF:12
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\Mapping\AutoMapperProfile.cs
+FN:29,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreateBrandMap()
+FNDA:0,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreateBrandMap()
+DA:30,0
+DA:31,0
+DA:32,0
+DA:34,0
+FN:35,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreateCategoryImagerMap()
+FNDA:0,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreateCategoryImagerMap()
+DA:36,0
+DA:37,0
+DA:38,0
+DA:40,0
+FN:43,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreateCategotyMap()
+FNDA:0,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreateCategotyMap()
+DA:44,0
+DA:45,0
+DA:46,0
+DA:48,0
+FN:50,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreateEngineMap()
+FNDA:0,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreateEngineMap()
+DA:51,0
+DA:52,0
+DA:53,0
+DA:55,0
+FN:57,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreateMakeMap()
+FNDA:0,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreateMakeMap()
+DA:58,0
+DA:59,0
+DA:60,0
+DA:62,0
+FN:64,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreateModelMap()
+FNDA:0,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreateModelMap()
+DA:65,0
+DA:66,0
+DA:67,0
+DA:69,0
+FN:71,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreatePartImageMap()
+FNDA:0,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreatePartImageMap()
+DA:72,0
+DA:73,0
+DA:74,0
+DA:76,0
+FN:78,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreatePartMap()
+FNDA:0,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreatePartMap()
+DA:79,0
+DA:80,0
+DA:81,0
+DA:83,0
+FN:85,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreateSubModelMap()
+FNDA:0,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreateSubModelMap()
+DA:86,0
+DA:87,0
+DA:88,0
+DA:90,0
+FN:92,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreateVehicleMap()
+FNDA:0,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreateVehicleMap()
+DA:93,0
+DA:94,0
+DA:95,0
+DA:97,0
+FN:98,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreateOrderMap()
+FNDA:0,System.Void PARTS.BLL.Mapping.AutoMapperProfile::CreateOrderMap()
+DA:99,0
+DA:100,0
+DA:101,0
+DA:103,0
+FN:11,System.Void PARTS.BLL.Mapping.AutoMapperProfile::.ctor()
+FNDA:0,System.Void PARTS.BLL.Mapping.AutoMapperProfile::.ctor()
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:26,0
+LF:58
+LH:0
+BRF:0
+BRH:0
+FNF:12
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\BaseDTO.cs
+FN:4,System.Nullable`1<System.Guid> PARTS.BLL.DTOs.BaseDTO::get_Id()
+FNDA:89,System.Nullable`1<System.Guid> PARTS.BLL.DTOs.BaseDTO::get_Id()
+DA:5,89
+FN:5,System.Nullable`1<System.DateTime> PARTS.BLL.DTOs.BaseDTO::get_Timestamp()
+FNDA:39,System.Nullable`1<System.DateTime> PARTS.BLL.DTOs.BaseDTO::get_Timestamp()
+DA:6,39
+LF:2
+LH:2
+BRF:0
+BRH:0
+FNF:2
+FNH:2
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Responses\BrandResponse.cs
+FN:4,System.String PARTS.BLL.DTOs.Responses.BrandResponse::get_Title()
+FNDA:19,System.String PARTS.BLL.DTOs.Responses.BrandResponse::get_Title()
+DA:5,19
+FN:5,System.String PARTS.BLL.DTOs.Responses.BrandResponse::get_Description()
+FNDA:8,System.String PARTS.BLL.DTOs.Responses.BrandResponse::get_Description()
+DA:6,8
+FN:6,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Responses.PartResponse> PARTS.BLL.DTOs.Responses.BrandResponse::get_Parts()
+FNDA:8,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Responses.PartResponse> PARTS.BLL.DTOs.Responses.BrandResponse::get_Parts()
+DA:7,8
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Responses\CategoryImageResponse.cs
+FN:4,System.String PARTS.BLL.DTOs.Responses.CategoryImageResponse::get_SourceContentType()
+FNDA:0,System.String PARTS.BLL.DTOs.Responses.CategoryImageResponse::get_SourceContentType()
+DA:5,0
+FN:5,System.String PARTS.BLL.DTOs.Responses.CategoryImageResponse::get_HashFileContent()
+FNDA:0,System.String PARTS.BLL.DTOs.Responses.CategoryImageResponse::get_HashFileContent()
+DA:6,0
+FN:6,System.Nullable`1<System.Int32> PARTS.BLL.DTOs.Responses.CategoryImageResponse::get_Size()
+FNDA:0,System.Nullable`1<System.Int32> PARTS.BLL.DTOs.Responses.CategoryImageResponse::get_Size()
+DA:7,0
+FN:7,System.String PARTS.BLL.DTOs.Responses.CategoryImageResponse::get_Path()
+FNDA:0,System.String PARTS.BLL.DTOs.Responses.CategoryImageResponse::get_Path()
+DA:8,0
+FN:8,System.String PARTS.BLL.DTOs.Responses.CategoryImageResponse::get_Title()
+FNDA:0,System.String PARTS.BLL.DTOs.Responses.CategoryImageResponse::get_Title()
+DA:9,0
+FN:10,PARTS.BLL.DTOs.Responses.CategoryResponse PARTS.BLL.DTOs.Responses.CategoryImageResponse::get_Category()
+FNDA:0,PARTS.BLL.DTOs.Responses.CategoryResponse PARTS.BLL.DTOs.Responses.CategoryImageResponse::get_Category()
+DA:11,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Responses\CategoryResponse.cs
+FN:4,System.String PARTS.BLL.DTOs.Responses.CategoryResponse::get_Title()
+FNDA:19,System.String PARTS.BLL.DTOs.Responses.CategoryResponse::get_Title()
+DA:5,19
+FN:5,System.String PARTS.BLL.DTOs.Responses.CategoryResponse::get_Description()
+FNDA:8,System.String PARTS.BLL.DTOs.Responses.CategoryResponse::get_Description()
+DA:6,8
+FN:6,PARTS.BLL.DTOs.Responses.CategoryImageResponse PARTS.BLL.DTOs.Responses.CategoryResponse::get_CategoryImage()
+FNDA:8,PARTS.BLL.DTOs.Responses.CategoryImageResponse PARTS.BLL.DTOs.Responses.CategoryResponse::get_CategoryImage()
+DA:7,8
+FN:7,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Responses.PartResponse> PARTS.BLL.DTOs.Responses.CategoryResponse::get_Parts()
+FNDA:8,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Responses.PartResponse> PARTS.BLL.DTOs.Responses.CategoryResponse::get_Parts()
+DA:8,8
+LF:4
+LH:4
+BRF:0
+BRH:0
+FNF:4
+FNH:4
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Responses\EngineResponse.cs
+FN:4,System.Int32 PARTS.BLL.DTOs.Responses.EngineResponse::get_Cylinders()
+FNDA:0,System.Int32 PARTS.BLL.DTOs.Responses.EngineResponse::get_Cylinders()
+DA:5,0
+FN:5,System.Int32 PARTS.BLL.DTOs.Responses.EngineResponse::get_Liter()
+FNDA:0,System.Int32 PARTS.BLL.DTOs.Responses.EngineResponse::get_Liter()
+DA:6,0
+FN:6,System.Nullable`1<System.DateTime> PARTS.BLL.DTOs.Responses.EngineResponse::get_Year()
+FNDA:0,System.Nullable`1<System.DateTime> PARTS.BLL.DTOs.Responses.EngineResponse::get_Year()
+DA:7,0
+FN:7,System.String PARTS.BLL.DTOs.Responses.EngineResponse::get_Model()
+FNDA:0,System.String PARTS.BLL.DTOs.Responses.EngineResponse::get_Model()
+DA:8,0
+FN:8,PARTS.BLL.DTOs.Responses.SubModelResponse PARTS.BLL.DTOs.Responses.EngineResponse::get_SubModel()
+FNDA:0,PARTS.BLL.DTOs.Responses.SubModelResponse PARTS.BLL.DTOs.Responses.EngineResponse::get_SubModel()
+DA:9,0
+FN:9,PARTS.BLL.DTOs.Responses.MakeResponse PARTS.BLL.DTOs.Responses.EngineResponse::get_Make()
+FNDA:0,PARTS.BLL.DTOs.Responses.MakeResponse PARTS.BLL.DTOs.Responses.EngineResponse::get_Make()
+DA:10,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Responses\MakeResponse.cs
+FN:4,System.String PARTS.BLL.DTOs.Responses.MakeResponse::get_Title()
+FNDA:0,System.String PARTS.BLL.DTOs.Responses.MakeResponse::get_Title()
+DA:5,0
+FN:5,System.String PARTS.BLL.DTOs.Responses.MakeResponse::get_Description()
+FNDA:0,System.String PARTS.BLL.DTOs.Responses.MakeResponse::get_Description()
+DA:6,0
+FN:6,System.Nullable`1<System.DateTime> PARTS.BLL.DTOs.Responses.MakeResponse::get_Year()
+FNDA:0,System.Nullable`1<System.DateTime> PARTS.BLL.DTOs.Responses.MakeResponse::get_Year()
+DA:7,0
+FN:8,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Responses.VehicleResponse> PARTS.BLL.DTOs.Responses.MakeResponse::get_Vehicles()
+FNDA:0,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Responses.VehicleResponse> PARTS.BLL.DTOs.Responses.MakeResponse::get_Vehicles()
+DA:9,0
+FN:9,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Responses.ModelResponse> PARTS.BLL.DTOs.Responses.MakeResponse::get_Models()
+FNDA:0,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Responses.ModelResponse> PARTS.BLL.DTOs.Responses.MakeResponse::get_Models()
+DA:10,0
+LF:5
+LH:0
+BRF:0
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Responses\ModelResponse.cs
+FN:4,System.String PARTS.BLL.DTOs.Responses.ModelResponse::get_Title()
+FNDA:0,System.String PARTS.BLL.DTOs.Responses.ModelResponse::get_Title()
+DA:5,0
+FN:5,System.String PARTS.BLL.DTOs.Responses.ModelResponse::get_Description()
+FNDA:0,System.String PARTS.BLL.DTOs.Responses.ModelResponse::get_Description()
+DA:6,0
+FN:6,System.Nullable`1<System.DateTime> PARTS.BLL.DTOs.Responses.ModelResponse::get_Year()
+FNDA:0,System.Nullable`1<System.DateTime> PARTS.BLL.DTOs.Responses.ModelResponse::get_Year()
+DA:7,0
+FN:7,PARTS.BLL.DTOs.Responses.MakeResponse PARTS.BLL.DTOs.Responses.ModelResponse::get_Make()
+FNDA:0,PARTS.BLL.DTOs.Responses.MakeResponse PARTS.BLL.DTOs.Responses.ModelResponse::get_Make()
+DA:8,0
+FN:9,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Responses.VehicleResponse> PARTS.BLL.DTOs.Responses.ModelResponse::get_Vehicles()
+FNDA:0,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Responses.VehicleResponse> PARTS.BLL.DTOs.Responses.ModelResponse::get_Vehicles()
+DA:10,0
+FN:10,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Responses.SubModelResponse> PARTS.BLL.DTOs.Responses.ModelResponse::get_SubModels()
+FNDA:0,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Responses.SubModelResponse> PARTS.BLL.DTOs.Responses.ModelResponse::get_SubModels()
+DA:11,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Responses\OrderResponse.cs
+FN:4,System.Nullable`1<System.Guid> PARTS.BLL.DTOs.Responses.OrderResponse::get_СustomerId()
+FNDA:0,System.Nullable`1<System.Guid> PARTS.BLL.DTOs.Responses.OrderResponse::get_СustomerId()
+DA:5,0
+FN:5,System.Collections.Generic.IEnumerable`1<PARTS.BLL.DTOs.Responses.PartResponse> PARTS.BLL.DTOs.Responses.OrderResponse::get_Parts()
+FNDA:0,System.Collections.Generic.IEnumerable`1<PARTS.BLL.DTOs.Responses.PartResponse> PARTS.BLL.DTOs.Responses.OrderResponse::get_Parts()
+DA:6,0
+LF:2
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Responses\PartImageResponse.cs
+FN:4,System.String PARTS.BLL.DTOs.Responses.PartImageResponse::get_SourceContentType()
+FNDA:0,System.String PARTS.BLL.DTOs.Responses.PartImageResponse::get_SourceContentType()
+DA:5,0
+FN:5,System.String PARTS.BLL.DTOs.Responses.PartImageResponse::get_HashFileContent()
+FNDA:0,System.String PARTS.BLL.DTOs.Responses.PartImageResponse::get_HashFileContent()
+DA:6,0
+FN:6,System.Nullable`1<System.Int32> PARTS.BLL.DTOs.Responses.PartImageResponse::get_Size()
+FNDA:0,System.Nullable`1<System.Int32> PARTS.BLL.DTOs.Responses.PartImageResponse::get_Size()
+DA:7,0
+FN:7,System.String PARTS.BLL.DTOs.Responses.PartImageResponse::get_Path()
+FNDA:0,System.String PARTS.BLL.DTOs.Responses.PartImageResponse::get_Path()
+DA:8,0
+FN:8,System.String PARTS.BLL.DTOs.Responses.PartImageResponse::get_Title()
+FNDA:0,System.String PARTS.BLL.DTOs.Responses.PartImageResponse::get_Title()
+DA:9,0
+FN:10,PARTS.BLL.DTOs.Responses.PartResponse PARTS.BLL.DTOs.Responses.PartImageResponse::get_Part()
+FNDA:0,PARTS.BLL.DTOs.Responses.PartResponse PARTS.BLL.DTOs.Responses.PartImageResponse::get_Part()
+DA:11,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Responses\PartResponse.cs
+FN:4,System.String PARTS.BLL.DTOs.Responses.PartResponse::get_PartNumber()
+FNDA:22,System.String PARTS.BLL.DTOs.Responses.PartResponse::get_PartNumber()
+DA:5,22
+FN:5,System.String PARTS.BLL.DTOs.Responses.PartResponse::get_ManufacturerNumber()
+FNDA:9,System.String PARTS.BLL.DTOs.Responses.PartResponse::get_ManufacturerNumber()
+DA:6,9
+FN:6,System.String PARTS.BLL.DTOs.Responses.PartResponse::get_Description()
+FNDA:9,System.String PARTS.BLL.DTOs.Responses.PartResponse::get_Description()
+DA:7,9
+FN:7,System.String PARTS.BLL.DTOs.Responses.PartResponse::get_PartName()
+FNDA:9,System.String PARTS.BLL.DTOs.Responses.PartResponse::get_PartName()
+DA:8,9
+FN:8,System.Nullable`1<System.Boolean> PARTS.BLL.DTOs.Responses.PartResponse::get_IsUniversal()
+FNDA:9,System.Nullable`1<System.Boolean> PARTS.BLL.DTOs.Responses.PartResponse::get_IsUniversal()
+DA:9,9
+FN:9,System.Nullable`1<System.Int32> PARTS.BLL.DTOs.Responses.PartResponse::get_PriceRegular()
+FNDA:9,System.Nullable`1<System.Int32> PARTS.BLL.DTOs.Responses.PartResponse::get_PriceRegular()
+DA:10,9
+FN:10,System.String PARTS.BLL.DTOs.Responses.PartResponse::get_PartTitle()
+FNDA:9,System.String PARTS.BLL.DTOs.Responses.PartResponse::get_PartTitle()
+DA:11,9
+FN:11,System.String PARTS.BLL.DTOs.Responses.PartResponse::get_PartAttributes()
+FNDA:9,System.String PARTS.BLL.DTOs.Responses.PartResponse::get_PartAttributes()
+DA:12,9
+FN:12,System.Nullable`1<System.Boolean> PARTS.BLL.DTOs.Responses.PartResponse::get_IsMadeToOrder()
+FNDA:9,System.Nullable`1<System.Boolean> PARTS.BLL.DTOs.Responses.PartResponse::get_IsMadeToOrder()
+DA:13,9
+FN:13,System.String PARTS.BLL.DTOs.Responses.PartResponse::get_FitNotes()
+FNDA:9,System.String PARTS.BLL.DTOs.Responses.PartResponse::get_FitNotes()
+DA:14,9
+FN:14,System.Nullable`1<System.Int32> PARTS.BLL.DTOs.Responses.PartResponse::get_Count()
+FNDA:9,System.Nullable`1<System.Int32> PARTS.BLL.DTOs.Responses.PartResponse::get_Count()
+DA:15,9
+FN:15,System.Guid PARTS.BLL.DTOs.Responses.PartResponse::get_CategoryId()
+FNDA:9,System.Guid PARTS.BLL.DTOs.Responses.PartResponse::get_CategoryId()
+DA:16,9
+FN:16,PARTS.BLL.DTOs.Responses.BrandResponse PARTS.BLL.DTOs.Responses.PartResponse::get_Brand()
+FNDA:9,PARTS.BLL.DTOs.Responses.BrandResponse PARTS.BLL.DTOs.Responses.PartResponse::get_Brand()
+DA:17,9
+FN:17,PARTS.BLL.DTOs.Responses.CategoryResponse PARTS.BLL.DTOs.Responses.PartResponse::get_Categoty()
+FNDA:2,PARTS.BLL.DTOs.Responses.CategoryResponse PARTS.BLL.DTOs.Responses.PartResponse::get_Categoty()
+DA:18,2
+LF:14
+LH:14
+BRF:0
+BRH:0
+FNF:14
+FNH:14
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Responses\SimpleVihicleResponce.cs
+FN:4,System.String PARTS.BLL.DTOs.Responses.SimpleVihicleResponce::get_FullModelName()
+FNDA:0,System.String PARTS.BLL.DTOs.Responses.SimpleVihicleResponce::get_FullModelName()
+DA:5,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Responses\SubModelResponse.cs
+FN:4,System.String PARTS.BLL.DTOs.Responses.SubModelResponse::get_Title()
+FNDA:0,System.String PARTS.BLL.DTOs.Responses.SubModelResponse::get_Title()
+DA:5,0
+FN:5,System.String PARTS.BLL.DTOs.Responses.SubModelResponse::get_Description()
+FNDA:0,System.String PARTS.BLL.DTOs.Responses.SubModelResponse::get_Description()
+DA:6,0
+FN:6,System.DateTime PARTS.BLL.DTOs.Responses.SubModelResponse::get_Year()
+FNDA:0,System.DateTime PARTS.BLL.DTOs.Responses.SubModelResponse::get_Year()
+DA:7,0
+FN:7,PARTS.BLL.DTOs.Responses.ModelResponse PARTS.BLL.DTOs.Responses.SubModelResponse::get_Model()
+FNDA:0,PARTS.BLL.DTOs.Responses.ModelResponse PARTS.BLL.DTOs.Responses.SubModelResponse::get_Model()
+DA:8,0
+FN:8,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Responses.VehicleResponse> PARTS.BLL.DTOs.Responses.SubModelResponse::get_Vehicles()
+FNDA:0,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Responses.VehicleResponse> PARTS.BLL.DTOs.Responses.SubModelResponse::get_Vehicles()
+DA:9,0
+FN:9,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Responses.EngineResponse> PARTS.BLL.DTOs.Responses.SubModelResponse::get_Engines()
+FNDA:0,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Responses.EngineResponse> PARTS.BLL.DTOs.Responses.SubModelResponse::get_Engines()
+DA:10,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Responses\VehicleResponse.cs
+FN:4,System.String PARTS.BLL.DTOs.Responses.VehicleResponse::get_FullModelName()
+FNDA:11,System.String PARTS.BLL.DTOs.Responses.VehicleResponse::get_FullModelName()
+DA:5,11
+FN:5,System.String PARTS.BLL.DTOs.Responses.VehicleResponse::get_VIN()
+FNDA:2,System.String PARTS.BLL.DTOs.Responses.VehicleResponse::get_VIN()
+DA:6,2
+FN:6,System.Nullable`1<System.DateTime> PARTS.BLL.DTOs.Responses.VehicleResponse::get_Year()
+FNDA:2,System.Nullable`1<System.DateTime> PARTS.BLL.DTOs.Responses.VehicleResponse::get_Year()
+DA:7,2
+FN:7,PARTS.BLL.DTOs.Responses.MakeResponse PARTS.BLL.DTOs.Responses.VehicleResponse::get_Make()
+FNDA:2,PARTS.BLL.DTOs.Responses.MakeResponse PARTS.BLL.DTOs.Responses.VehicleResponse::get_Make()
+DA:8,2
+FN:8,PARTS.BLL.DTOs.Responses.ModelResponse PARTS.BLL.DTOs.Responses.VehicleResponse::get_Model()
+FNDA:2,PARTS.BLL.DTOs.Responses.ModelResponse PARTS.BLL.DTOs.Responses.VehicleResponse::get_Model()
+DA:9,2
+FN:9,PARTS.BLL.DTOs.Responses.SubModelResponse PARTS.BLL.DTOs.Responses.VehicleResponse::get_SubModel()
+FNDA:2,PARTS.BLL.DTOs.Responses.SubModelResponse PARTS.BLL.DTOs.Responses.VehicleResponse::get_SubModel()
+DA:10,2
+FN:10,PARTS.BLL.DTOs.Responses.EngineResponse PARTS.BLL.DTOs.Responses.VehicleResponse::get_Engine()
+FNDA:2,PARTS.BLL.DTOs.Responses.EngineResponse PARTS.BLL.DTOs.Responses.VehicleResponse::get_Engine()
+DA:11,2
+FN:11,System.String PARTS.BLL.DTOs.Responses.VehicleResponse::get_URL()
+FNDA:2,System.String PARTS.BLL.DTOs.Responses.VehicleResponse::get_URL()
+DA:12,2
+FN:12,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Responses.PartResponse> PARTS.BLL.DTOs.Responses.VehicleResponse::get_Parts()
+FNDA:2,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Responses.PartResponse> PARTS.BLL.DTOs.Responses.VehicleResponse::get_Parts()
+DA:13,2
+LF:9
+LH:9
+BRF:0
+BRH:0
+FNF:9
+FNH:9
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Requests\BrandRequest.cs
+FN:4,System.String PARTS.BLL.DTOs.Requests.BrandRequest::get_Title()
+FNDA:10,System.String PARTS.BLL.DTOs.Requests.BrandRequest::get_Title()
+DA:5,10
+FN:5,System.String PARTS.BLL.DTOs.Requests.BrandRequest::get_Description()
+FNDA:4,System.String PARTS.BLL.DTOs.Requests.BrandRequest::get_Description()
+DA:6,4
+FN:6,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Requests.PartRequest> PARTS.BLL.DTOs.Requests.BrandRequest::get_Parts()
+FNDA:4,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Requests.PartRequest> PARTS.BLL.DTOs.Requests.BrandRequest::get_Parts()
+DA:7,4
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Requests\CategoryImageRequest.cs
+FN:4,System.String PARTS.BLL.DTOs.Requests.CategoryImageRequest::get_SourceContentType()
+FNDA:0,System.String PARTS.BLL.DTOs.Requests.CategoryImageRequest::get_SourceContentType()
+DA:5,0
+FN:5,System.String PARTS.BLL.DTOs.Requests.CategoryImageRequest::get_HashFileContent()
+FNDA:0,System.String PARTS.BLL.DTOs.Requests.CategoryImageRequest::get_HashFileContent()
+DA:6,0
+FN:6,System.Nullable`1<System.Int32> PARTS.BLL.DTOs.Requests.CategoryImageRequest::get_Size()
+FNDA:0,System.Nullable`1<System.Int32> PARTS.BLL.DTOs.Requests.CategoryImageRequest::get_Size()
+DA:7,0
+FN:7,System.String PARTS.BLL.DTOs.Requests.CategoryImageRequest::get_Path()
+FNDA:0,System.String PARTS.BLL.DTOs.Requests.CategoryImageRequest::get_Path()
+DA:8,0
+FN:8,System.String PARTS.BLL.DTOs.Requests.CategoryImageRequest::get_Title()
+FNDA:0,System.String PARTS.BLL.DTOs.Requests.CategoryImageRequest::get_Title()
+DA:9,0
+FN:10,PARTS.BLL.DTOs.Requests.CategoryRequest PARTS.BLL.DTOs.Requests.CategoryImageRequest::get_Categoty()
+FNDA:0,PARTS.BLL.DTOs.Requests.CategoryRequest PARTS.BLL.DTOs.Requests.CategoryImageRequest::get_Categoty()
+DA:11,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Requests\CategoryRequest.cs
+FN:4,System.String PARTS.BLL.DTOs.Requests.CategoryRequest::get_Title()
+FNDA:10,System.String PARTS.BLL.DTOs.Requests.CategoryRequest::get_Title()
+DA:5,10
+FN:5,System.String PARTS.BLL.DTOs.Requests.CategoryRequest::get_Description()
+FNDA:4,System.String PARTS.BLL.DTOs.Requests.CategoryRequest::get_Description()
+DA:6,4
+FN:6,PARTS.BLL.DTOs.Requests.CategoryImageRequest PARTS.BLL.DTOs.Requests.CategoryRequest::get_CategoryImage()
+FNDA:4,PARTS.BLL.DTOs.Requests.CategoryImageRequest PARTS.BLL.DTOs.Requests.CategoryRequest::get_CategoryImage()
+DA:7,4
+FN:7,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Requests.PartRequest> PARTS.BLL.DTOs.Requests.CategoryRequest::get_Parts()
+FNDA:4,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Requests.PartRequest> PARTS.BLL.DTOs.Requests.CategoryRequest::get_Parts()
+DA:8,4
+LF:4
+LH:4
+BRF:0
+BRH:0
+FNF:4
+FNH:4
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Requests\EngineRequest.cs
+FN:4,System.Int32 PARTS.BLL.DTOs.Requests.EngineRequest::get_Cylinders()
+FNDA:0,System.Int32 PARTS.BLL.DTOs.Requests.EngineRequest::get_Cylinders()
+DA:5,0
+FN:5,System.Int32 PARTS.BLL.DTOs.Requests.EngineRequest::get_Liter()
+FNDA:0,System.Int32 PARTS.BLL.DTOs.Requests.EngineRequest::get_Liter()
+DA:6,0
+FN:6,System.Nullable`1<System.DateTime> PARTS.BLL.DTOs.Requests.EngineRequest::get_Year()
+FNDA:0,System.Nullable`1<System.DateTime> PARTS.BLL.DTOs.Requests.EngineRequest::get_Year()
+DA:7,0
+FN:7,System.String PARTS.BLL.DTOs.Requests.EngineRequest::get_Model()
+FNDA:0,System.String PARTS.BLL.DTOs.Requests.EngineRequest::get_Model()
+DA:8,0
+FN:8,PARTS.BLL.DTOs.Requests.SubModelRequest PARTS.BLL.DTOs.Requests.EngineRequest::get_SubModel()
+FNDA:0,PARTS.BLL.DTOs.Requests.SubModelRequest PARTS.BLL.DTOs.Requests.EngineRequest::get_SubModel()
+DA:9,0
+FN:9,PARTS.BLL.DTOs.Requests.MakeRequest PARTS.BLL.DTOs.Requests.EngineRequest::get_Make()
+FNDA:0,PARTS.BLL.DTOs.Requests.MakeRequest PARTS.BLL.DTOs.Requests.EngineRequest::get_Make()
+DA:10,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Requests\MakeRequest.cs
+FN:4,System.String PARTS.BLL.DTOs.Requests.MakeRequest::get_Title()
+FNDA:0,System.String PARTS.BLL.DTOs.Requests.MakeRequest::get_Title()
+DA:5,0
+FN:5,System.String PARTS.BLL.DTOs.Requests.MakeRequest::get_Description()
+FNDA:0,System.String PARTS.BLL.DTOs.Requests.MakeRequest::get_Description()
+DA:6,0
+FN:6,System.Nullable`1<System.DateTime> PARTS.BLL.DTOs.Requests.MakeRequest::get_Year()
+FNDA:0,System.Nullable`1<System.DateTime> PARTS.BLL.DTOs.Requests.MakeRequest::get_Year()
+DA:7,0
+FN:8,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Requests.VehicleRequest> PARTS.BLL.DTOs.Requests.MakeRequest::get_Vehicles()
+FNDA:0,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Requests.VehicleRequest> PARTS.BLL.DTOs.Requests.MakeRequest::get_Vehicles()
+DA:9,0
+FN:9,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Requests.ModelRequest> PARTS.BLL.DTOs.Requests.MakeRequest::get_Models()
+FNDA:0,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Requests.ModelRequest> PARTS.BLL.DTOs.Requests.MakeRequest::get_Models()
+DA:10,0
+LF:5
+LH:0
+BRF:0
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Requests\ModelRequest.cs
+FN:4,System.String PARTS.BLL.DTOs.Requests.ModelRequest::get_Title()
+FNDA:0,System.String PARTS.BLL.DTOs.Requests.ModelRequest::get_Title()
+DA:5,0
+FN:5,System.String PARTS.BLL.DTOs.Requests.ModelRequest::get_Description()
+FNDA:0,System.String PARTS.BLL.DTOs.Requests.ModelRequest::get_Description()
+DA:6,0
+FN:6,System.Nullable`1<System.DateTime> PARTS.BLL.DTOs.Requests.ModelRequest::get_Year()
+FNDA:0,System.Nullable`1<System.DateTime> PARTS.BLL.DTOs.Requests.ModelRequest::get_Year()
+DA:7,0
+FN:7,PARTS.BLL.DTOs.Requests.MakeRequest PARTS.BLL.DTOs.Requests.ModelRequest::get_Make()
+FNDA:0,PARTS.BLL.DTOs.Requests.MakeRequest PARTS.BLL.DTOs.Requests.ModelRequest::get_Make()
+DA:8,0
+FN:9,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Requests.VehicleRequest> PARTS.BLL.DTOs.Requests.ModelRequest::get_Vehicles()
+FNDA:0,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Requests.VehicleRequest> PARTS.BLL.DTOs.Requests.ModelRequest::get_Vehicles()
+DA:10,0
+FN:10,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Requests.SubModelRequest> PARTS.BLL.DTOs.Requests.ModelRequest::get_SubModels()
+FNDA:0,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Requests.SubModelRequest> PARTS.BLL.DTOs.Requests.ModelRequest::get_SubModels()
+DA:11,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Requests\OrderRequest.cs
+FN:6,System.Nullable`1<System.Guid> PARTS.BLL.DTOs.Requests.OrderRequest::get_СustomerId()
+FNDA:0,System.Nullable`1<System.Guid> PARTS.BLL.DTOs.Requests.OrderRequest::get_СustomerId()
+DA:7,0
+FN:7,System.Collections.Generic.IEnumerable`1<PARTS.BLL.DTOs.Responses.PartResponse> PARTS.BLL.DTOs.Requests.OrderRequest::get_Parts()
+FNDA:0,System.Collections.Generic.IEnumerable`1<PARTS.BLL.DTOs.Responses.PartResponse> PARTS.BLL.DTOs.Requests.OrderRequest::get_Parts()
+DA:8,0
+LF:2
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Requests\PartImageRequest.cs
+FN:4,System.String PARTS.BLL.DTOs.Requests.PartImageRequest::get_SourceContentType()
+FNDA:0,System.String PARTS.BLL.DTOs.Requests.PartImageRequest::get_SourceContentType()
+DA:5,0
+FN:5,System.String PARTS.BLL.DTOs.Requests.PartImageRequest::get_HashFileContent()
+FNDA:0,System.String PARTS.BLL.DTOs.Requests.PartImageRequest::get_HashFileContent()
+DA:6,0
+FN:6,System.Nullable`1<System.Int32> PARTS.BLL.DTOs.Requests.PartImageRequest::get_Size()
+FNDA:0,System.Nullable`1<System.Int32> PARTS.BLL.DTOs.Requests.PartImageRequest::get_Size()
+DA:7,0
+FN:7,System.String PARTS.BLL.DTOs.Requests.PartImageRequest::get_Path()
+FNDA:0,System.String PARTS.BLL.DTOs.Requests.PartImageRequest::get_Path()
+DA:8,0
+FN:8,System.String PARTS.BLL.DTOs.Requests.PartImageRequest::get_Title()
+FNDA:0,System.String PARTS.BLL.DTOs.Requests.PartImageRequest::get_Title()
+DA:9,0
+FN:10,PARTS.BLL.DTOs.Requests.PartRequest PARTS.BLL.DTOs.Requests.PartImageRequest::get_Part()
+FNDA:0,PARTS.BLL.DTOs.Requests.PartRequest PARTS.BLL.DTOs.Requests.PartImageRequest::get_Part()
+DA:11,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Requests\PartRequest.cs
+FN:4,System.String PARTS.BLL.DTOs.Requests.PartRequest::get_PartNumber()
+FNDA:10,System.String PARTS.BLL.DTOs.Requests.PartRequest::get_PartNumber()
+DA:5,10
+FN:5,System.String PARTS.BLL.DTOs.Requests.PartRequest::get_ManufacturerNumber()
+FNDA:4,System.String PARTS.BLL.DTOs.Requests.PartRequest::get_ManufacturerNumber()
+DA:6,4
+FN:6,System.String PARTS.BLL.DTOs.Requests.PartRequest::get_Description()
+FNDA:4,System.String PARTS.BLL.DTOs.Requests.PartRequest::get_Description()
+DA:7,4
+FN:7,System.String PARTS.BLL.DTOs.Requests.PartRequest::get_PartName()
+FNDA:4,System.String PARTS.BLL.DTOs.Requests.PartRequest::get_PartName()
+DA:8,4
+FN:8,System.Nullable`1<System.Boolean> PARTS.BLL.DTOs.Requests.PartRequest::get_IsUniversal()
+FNDA:4,System.Nullable`1<System.Boolean> PARTS.BLL.DTOs.Requests.PartRequest::get_IsUniversal()
+DA:9,4
+FN:9,System.Nullable`1<System.Int32> PARTS.BLL.DTOs.Requests.PartRequest::get_PriceRegular()
+FNDA:4,System.Nullable`1<System.Int32> PARTS.BLL.DTOs.Requests.PartRequest::get_PriceRegular()
+DA:10,4
+FN:10,System.String PARTS.BLL.DTOs.Requests.PartRequest::get_PartTitle()
+FNDA:4,System.String PARTS.BLL.DTOs.Requests.PartRequest::get_PartTitle()
+DA:11,4
+FN:11,System.String PARTS.BLL.DTOs.Requests.PartRequest::get_PartAttributes()
+FNDA:4,System.String PARTS.BLL.DTOs.Requests.PartRequest::get_PartAttributes()
+DA:12,4
+FN:12,System.Nullable`1<System.Boolean> PARTS.BLL.DTOs.Requests.PartRequest::get_IsMadeToOrder()
+FNDA:4,System.Nullable`1<System.Boolean> PARTS.BLL.DTOs.Requests.PartRequest::get_IsMadeToOrder()
+DA:13,4
+FN:13,System.String PARTS.BLL.DTOs.Requests.PartRequest::get_FitNotes()
+FNDA:4,System.String PARTS.BLL.DTOs.Requests.PartRequest::get_FitNotes()
+DA:14,4
+FN:14,System.Nullable`1<System.Int32> PARTS.BLL.DTOs.Requests.PartRequest::get_Count()
+FNDA:4,System.Nullable`1<System.Int32> PARTS.BLL.DTOs.Requests.PartRequest::get_Count()
+DA:15,4
+FN:15,System.Guid PARTS.BLL.DTOs.Requests.PartRequest::get_CategoryId()
+FNDA:6,System.Guid PARTS.BLL.DTOs.Requests.PartRequest::get_CategoryId()
+DA:16,6
+FN:17,PARTS.BLL.DTOs.Requests.BrandRequest PARTS.BLL.DTOs.Requests.PartRequest::get_Brand()
+FNDA:4,PARTS.BLL.DTOs.Requests.BrandRequest PARTS.BLL.DTOs.Requests.PartRequest::get_Brand()
+DA:18,4
+FN:18,PARTS.BLL.DTOs.Requests.CategoryRequest PARTS.BLL.DTOs.Requests.PartRequest::get_Category()
+FNDA:4,PARTS.BLL.DTOs.Requests.CategoryRequest PARTS.BLL.DTOs.Requests.PartRequest::get_Category()
+DA:19,4
+LF:14
+LH:14
+BRF:0
+BRH:0
+FNF:14
+FNH:14
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Requests\SimppleVihicleRequest.cs
+FN:4,System.String PARTS.BLL.DTOs.Requests.SimppleVihicleRequest::get_FullModelName()
+FNDA:0,System.String PARTS.BLL.DTOs.Requests.SimppleVihicleRequest::get_FullModelName()
+DA:5,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Requests\SubModelRequest.cs
+FN:4,System.String PARTS.BLL.DTOs.Requests.SubModelRequest::get_Title()
+FNDA:0,System.String PARTS.BLL.DTOs.Requests.SubModelRequest::get_Title()
+DA:5,0
+FN:5,System.String PARTS.BLL.DTOs.Requests.SubModelRequest::get_Description()
+FNDA:0,System.String PARTS.BLL.DTOs.Requests.SubModelRequest::get_Description()
+DA:6,0
+FN:6,System.DateTime PARTS.BLL.DTOs.Requests.SubModelRequest::get_Year()
+FNDA:0,System.DateTime PARTS.BLL.DTOs.Requests.SubModelRequest::get_Year()
+DA:7,0
+FN:7,PARTS.BLL.DTOs.Requests.ModelRequest PARTS.BLL.DTOs.Requests.SubModelRequest::get_Model()
+FNDA:0,PARTS.BLL.DTOs.Requests.ModelRequest PARTS.BLL.DTOs.Requests.SubModelRequest::get_Model()
+DA:8,0
+FN:8,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Requests.VehicleRequest> PARTS.BLL.DTOs.Requests.SubModelRequest::get_Vehicles()
+FNDA:0,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Requests.VehicleRequest> PARTS.BLL.DTOs.Requests.SubModelRequest::get_Vehicles()
+DA:9,0
+FN:9,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Requests.EngineRequest> PARTS.BLL.DTOs.Requests.SubModelRequest::get_Engines()
+FNDA:0,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Requests.EngineRequest> PARTS.BLL.DTOs.Requests.SubModelRequest::get_Engines()
+DA:10,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.BLL\DTOs\Requests\VehicleRequest.cs
+FN:4,System.String PARTS.BLL.DTOs.Requests.VehicleRequest::get_FullModelName()
+FNDA:2,System.String PARTS.BLL.DTOs.Requests.VehicleRequest::get_FullModelName()
+DA:5,2
+FN:5,System.String PARTS.BLL.DTOs.Requests.VehicleRequest::get_VIN()
+FNDA:0,System.String PARTS.BLL.DTOs.Requests.VehicleRequest::get_VIN()
+DA:6,0
+FN:6,System.Nullable`1<System.DateTime> PARTS.BLL.DTOs.Requests.VehicleRequest::get_Year()
+FNDA:0,System.Nullable`1<System.DateTime> PARTS.BLL.DTOs.Requests.VehicleRequest::get_Year()
+DA:7,0
+FN:7,PARTS.BLL.DTOs.Requests.MakeRequest PARTS.BLL.DTOs.Requests.VehicleRequest::get_Make()
+FNDA:0,PARTS.BLL.DTOs.Requests.MakeRequest PARTS.BLL.DTOs.Requests.VehicleRequest::get_Make()
+DA:8,0
+FN:8,PARTS.BLL.DTOs.Requests.ModelRequest PARTS.BLL.DTOs.Requests.VehicleRequest::get_Model()
+FNDA:0,PARTS.BLL.DTOs.Requests.ModelRequest PARTS.BLL.DTOs.Requests.VehicleRequest::get_Model()
+DA:9,0
+FN:9,PARTS.BLL.DTOs.Requests.SubModelRequest PARTS.BLL.DTOs.Requests.VehicleRequest::get_SubModel()
+FNDA:0,PARTS.BLL.DTOs.Requests.SubModelRequest PARTS.BLL.DTOs.Requests.VehicleRequest::get_SubModel()
+DA:10,0
+FN:10,PARTS.BLL.DTOs.Requests.EngineRequest PARTS.BLL.DTOs.Requests.VehicleRequest::get_Engine()
+FNDA:0,PARTS.BLL.DTOs.Requests.EngineRequest PARTS.BLL.DTOs.Requests.VehicleRequest::get_Engine()
+DA:11,0
+FN:11,System.String PARTS.BLL.DTOs.Requests.VehicleRequest::get_URL()
+FNDA:0,System.String PARTS.BLL.DTOs.Requests.VehicleRequest::get_URL()
+DA:12,0
+FN:12,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Requests.PartRequest> PARTS.BLL.DTOs.Requests.VehicleRequest::get_Parts()
+FNDA:0,System.Collections.Generic.List`1<PARTS.BLL.DTOs.Requests.PartRequest> PARTS.BLL.DTOs.Requests.VehicleRequest::get_Parts()
+DA:13,0
+LF:9
+LH:1
+BRF:0
+BRH:0
+FNF:9
+FNH:1
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\DependencyInjection.cs
+FN:11,Microsoft.Extensions.DependencyInjection.IServiceCollection PARTS.DAL.DependencyInjection::AddPartsDal(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+FNDA:0,Microsoft.Extensions.DependencyInjection.IServiceCollection PARTS.DAL.DependencyInjection::AddPartsDal(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:26,0
+DA:27,0
+LF:14
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Seeders\BrandSeeder.cs
+FN:14,System.Void PARTS.DAL.Seeders.BrandSeeder::Seed(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Item.Brand>)
+FNDA:0,System.Void PARTS.DAL.Seeders.BrandSeeder::Seed(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Item.Brand>)
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:21,0
+DA:22,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Seeders\CategoryImageSeeder.cs
+FN:14,System.Void PARTS.DAL.Seeders.CategoryImageSeeder::Seed(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Item.CategoryImage>)
+FNDA:0,System.Void PARTS.DAL.Seeders.CategoryImageSeeder::Seed(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Item.CategoryImage>)
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:25,0
+DA:26,0
+LF:11
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Seeders\CategorySeeder.cs
+FN:14,System.Void PARTS.DAL.Seeders.CategorySeeder::Seed(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Item.Category>)
+FNDA:0,System.Void PARTS.DAL.Seeders.CategorySeeder::Seed(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Item.Category>)
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:21,0
+DA:22,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Seeders\EngineSeeder.cs
+FN:14,System.Void PARTS.DAL.Seeders.EngineSeeder::Seed(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Vehicle.Engine>)
+FNDA:0,System.Void PARTS.DAL.Seeders.EngineSeeder::Seed(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Vehicle.Engine>)
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:26,0
+DA:27,0
+LF:12
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Seeders\MakeSeeder.cs
+FN:14,System.Void PARTS.DAL.Seeders.MakeSeeder::Seed(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Vehicle.Make>)
+FNDA:0,System.Void PARTS.DAL.Seeders.MakeSeeder::Seed(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Vehicle.Make>)
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:22,0
+DA:23,0
+LF:8
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Seeders\ModelSeeder.cs
+FN:14,System.Void PARTS.DAL.Seeders.ModelSeeder::Seed(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Vehicle.Model>)
+FNDA:0,System.Void PARTS.DAL.Seeders.ModelSeeder::Seed(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Vehicle.Model>)
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:24,0
+DA:25,0
+LF:10
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Seeders\PartImageSeeder.cs
+FN:14,System.Void PARTS.DAL.Seeders.PartImageSeeder::Seed(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Item.PartImage>)
+FNDA:0,System.Void PARTS.DAL.Seeders.PartImageSeeder::Seed(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Item.PartImage>)
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:24,0
+DA:25,0
+LF:10
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Seeders\PartSeeder.cs
+FN:14,System.Void PARTS.DAL.Seeders.PartSeeder::Seed(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Item.Part>)
+FNDA:0,System.Void PARTS.DAL.Seeders.PartSeeder::Seed(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Item.Part>)
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:30,0
+DA:31,0
+LF:16
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Seeders\Seed.cs
+FN:16,System.Void PARTS.DAL.Seeders.Seed/<Initialize>d__0::MoveNext()
+FNDA:0,System.Void PARTS.DAL.Seeders.Seed/<Initialize>d__0::MoveNext()
+DA:17,0
+DA:18,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:84,0
+DA:85,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:114,0
+DA:115,0
+BRDA:20,51,0,0
+BRDA:20,69,0,0
+BRDA:20,51,1,0
+BRDA:20,69,1,0
+BRDA:20,92,0,0
+BRDA:20,92,1,0
+LF:87
+LH:0
+BRF:6
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Seeders\SubModelSeeder.cs
+FN:14,System.Void PARTS.DAL.Seeders.SubModelSeeder::Seed(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Vehicle.SubModel>)
+FNDA:0,System.Void PARTS.DAL.Seeders.SubModelSeeder::Seed(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Vehicle.SubModel>)
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:24,0
+DA:25,0
+LF:10
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Seeders\VehicleSeeder.cs
+FN:14,System.Void PARTS.DAL.Seeders.VehicleSeeder::Seed(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Vehicle.Vehicle>)
+FNDA:0,System.Void PARTS.DAL.Seeders.VehicleSeeder::Seed(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Vehicle.Vehicle>)
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:26,0
+DA:27,0
+LF:12
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Repositories\BrandRepository.cs
+FN:10,System.Void PARTS.DAL.Repositories.BrandRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+FNDA:6,System.Void PARTS.DAL.Repositories.BrandRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+DA:11,6
+DA:12,6
+DA:13,6
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Repositories\CategoryImageRepository.cs
+FN:10,System.Void PARTS.DAL.Repositories.CategoryImageRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+FNDA:0,System.Void PARTS.DAL.Repositories.CategoryImageRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+DA:11,0
+DA:12,0
+DA:13,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Repositories\CategoryRepository.cs
+FN:10,System.Void PARTS.DAL.Repositories.CategoryRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+FNDA:6,System.Void PARTS.DAL.Repositories.CategoryRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+DA:11,6
+DA:12,6
+DA:13,6
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Repositories\EngineRepository.cs
+FN:10,System.Void PARTS.DAL.Repositories.EngineRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+FNDA:0,System.Void PARTS.DAL.Repositories.EngineRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+DA:11,0
+DA:12,0
+DA:13,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Repositories\GenericRepository.cs
+FN:37,System.String PARTS.DAL.Repositories.GenericRepository`1::GetEntityNotFoundErrorMessage(System.Guid)
+FNDA:3,System.String PARTS.DAL.Repositories.GenericRepository`1::GetEntityNotFoundErrorMessage(System.Guid)
+DA:38,3
+FN:38,System.Void PARTS.DAL.Repositories.GenericRepository`1::.ctor(PARTS.DAL.Data.PartsDBContext)
+FNDA:18,System.Void PARTS.DAL.Repositories.GenericRepository`1::.ctor(PARTS.DAL.Data.PartsDBContext)
+DA:39,18
+DA:40,18
+DA:41,18
+DA:42,18
+DA:43,18
+FN:25,Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry`1<TEntity> PARTS.DAL.Repositories.GenericRepository`1/<>c__DisplayClass5_0::<UpdateAsync>b__0()
+FNDA:6,Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry`1<TEntity> PARTS.DAL.Repositories.GenericRepository`1/<>c__DisplayClass5_0::<UpdateAsync>b__0()
+DA:26,6
+FN:33,Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry`1<TEntity> PARTS.DAL.Repositories.GenericRepository`1/<>c__DisplayClass6_0::<DeleteAsync>b__0()
+FNDA:6,Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry`1<TEntity> PARTS.DAL.Repositories.GenericRepository`1/<>c__DisplayClass6_0::<DeleteAsync>b__0()
+DA:34,6
+FN:29,System.Void PARTS.DAL.Repositories.GenericRepository`1/<DeleteAsync>d__6::MoveNext()
+FNDA:3,System.Void PARTS.DAL.Repositories.GenericRepository`1/<DeleteAsync>d__6::MoveNext()
+DA:30,3
+DA:31,3
+DA:32,3
+DA:33,0
+DA:35,3
+DA:36,3
+BRDA:32,257,0,0
+BRDA:32,257,1,3
+FN:12,System.Void PARTS.DAL.Repositories.GenericRepository`1/<GetAsync>d__2::MoveNext()
+FNDA:9,System.Void PARTS.DAL.Repositories.GenericRepository`1/<GetAsync>d__2::MoveNext()
+DA:13,9
+BRDA:13,31,0,0
+BRDA:13,31,1,9
+FN:14,System.Void PARTS.DAL.Repositories.GenericRepository`1/<GetByIdAsync>d__3::MoveNext()
+FNDA:9,System.Void PARTS.DAL.Repositories.GenericRepository`1/<GetByIdAsync>d__3::MoveNext()
+DA:15,9
+DA:16,9
+DA:17,9
+DA:18,6
+BRDA:16,159,0,3
+BRDA:16,159,1,6
+FN:19,System.Void PARTS.DAL.Repositories.GenericRepository`1/<InsertAsync>d__4::MoveNext()
+FNDA:3,System.Void PARTS.DAL.Repositories.GenericRepository`1/<InsertAsync>d__4::MoveNext()
+DA:20,3
+DA:21,3
+DA:22,3
+DA:23,3
+FN:24,System.Void PARTS.DAL.Repositories.GenericRepository`1/<UpdateAsync>d__5::MoveNext()
+FNDA:3,System.Void PARTS.DAL.Repositories.GenericRepository`1/<UpdateAsync>d__5::MoveNext()
+DA:25,3
+DA:27,3
+DA:28,3
+LF:26
+LH:25
+BRF:6
+BRH:4
+FNF:9
+FNH:9
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Repositories\MakeRepository.cs
+FN:10,System.Void PARTS.DAL.Repositories.MakeRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+FNDA:0,System.Void PARTS.DAL.Repositories.MakeRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+DA:11,0
+DA:12,0
+DA:13,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Repositories\ModelRepository.cs
+FN:10,System.Void PARTS.DAL.Repositories.ModelRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+FNDA:0,System.Void PARTS.DAL.Repositories.ModelRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+DA:11,0
+DA:12,0
+DA:13,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Repositories\OrderRepository.cs
+FN:16,System.Void PARTS.DAL.Repositories.OrderRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+FNDA:0,System.Void PARTS.DAL.Repositories.OrderRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+DA:17,0
+DA:18,0
+DA:19,0
+FN:20,System.Void PARTS.DAL.Repositories.OrderRepository/<AddPartToOrderAsync>d__1::MoveNext()
+FNDA:0,System.Void PARTS.DAL.Repositories.OrderRepository/<AddPartToOrderAsync>d__1::MoveNext()
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:26,0
+DA:27,0
+DA:29,0
+DA:30,0
+DA:32,0
+DA:33,0
+DA:35,0
+DA:36,0
+DA:37,0
+BRDA:26,422,0,0
+BRDA:26,422,1,0
+BRDA:32,767,0,0
+BRDA:32,767,1,0
+FN:40,System.Void PARTS.DAL.Repositories.OrderRepository/<RemovePartFromOrderAsync>d__2::MoveNext()
+FNDA:0,System.Void PARTS.DAL.Repositories.OrderRepository/<RemovePartFromOrderAsync>d__2::MoveNext()
+DA:41,0
+DA:43,0
+DA:44,0
+DA:46,0
+DA:47,0
+DA:49,0
+DA:50,0
+DA:51,0
+BRDA:44,76,0,0
+BRDA:44,76,1,0
+BRDA:47,198,0,0
+BRDA:47,198,1,0
+LF:24
+LH:0
+BRF:8
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Repositories\PartImageRepository.cs
+FN:10,System.Void PARTS.DAL.Repositories.PartImageRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+FNDA:0,System.Void PARTS.DAL.Repositories.PartImageRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+DA:11,0
+DA:12,0
+DA:13,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Repositories\PartRepository.cs
+FN:10,System.Void PARTS.DAL.Repositories.PartRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+FNDA:6,System.Void PARTS.DAL.Repositories.PartRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+DA:11,6
+DA:12,6
+DA:13,6
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Repositories\SubModelRepository.cs
+FN:10,System.Void PARTS.DAL.Repositories.SubModelRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+FNDA:0,System.Void PARTS.DAL.Repositories.SubModelRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+DA:11,0
+DA:12,0
+DA:13,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Repositories\VehicleRepository.cs
+FN:10,System.Void PARTS.DAL.Repositories.VehicleRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+FNDA:0,System.Void PARTS.DAL.Repositories.VehicleRepository::.ctor(PARTS.DAL.Data.PartsDBContext)
+DA:11,0
+DA:12,0
+DA:13,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Migrations\20240523104732_initial.cs
+FN:12,System.Void PARTS.DAL.Migrations.initial::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+FNDA:0,System.Void PARTS.DAL.Migrations.initial::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:131,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:142,0
+DA:143,0
+DA:144,0
+DA:145,0
+DA:146,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:151,0
+DA:152,0
+DA:153,0
+DA:154,0
+DA:155,0
+DA:156,0
+DA:157,0
+DA:158,0
+DA:159,0
+DA:160,0
+DA:161,0
+DA:162,0
+DA:164,0
+DA:165,0
+DA:166,0
+DA:167,0
+DA:168,0
+DA:169,0
+DA:170,0
+DA:171,0
+DA:172,0
+DA:173,0
+DA:174,0
+DA:175,0
+DA:176,0
+DA:177,0
+DA:178,0
+DA:179,0
+DA:180,0
+DA:181,0
+DA:182,0
+DA:183,0
+DA:184,0
+DA:185,0
+DA:186,0
+DA:187,0
+DA:188,0
+DA:189,0
+DA:190,0
+DA:191,0
+DA:192,0
+DA:193,0
+DA:194,0
+DA:195,0
+DA:196,0
+DA:197,0
+DA:198,0
+DA:199,0
+DA:200,0
+DA:201,0
+DA:202,0
+DA:204,0
+DA:205,0
+DA:206,0
+DA:207,0
+DA:208,0
+DA:209,0
+DA:210,0
+DA:211,0
+DA:212,0
+DA:213,0
+DA:214,0
+DA:215,0
+DA:216,0
+DA:217,0
+DA:218,0
+DA:219,0
+DA:220,0
+DA:221,0
+DA:222,0
+DA:223,0
+DA:224,0
+DA:225,0
+DA:226,0
+DA:227,0
+DA:228,0
+DA:229,0
+DA:230,0
+DA:231,0
+DA:232,0
+DA:233,0
+DA:234,0
+DA:235,0
+DA:236,0
+DA:237,0
+DA:238,0
+DA:239,0
+DA:240,0
+DA:241,0
+DA:242,0
+DA:243,0
+DA:244,0
+DA:246,0
+DA:247,0
+DA:248,0
+DA:249,0
+DA:250,0
+DA:251,0
+DA:252,0
+DA:253,0
+DA:254,0
+DA:255,0
+DA:256,0
+DA:257,0
+DA:258,0
+DA:259,0
+DA:260,0
+DA:261,0
+DA:262,0
+DA:263,0
+DA:264,0
+DA:265,0
+DA:266,0
+DA:267,0
+DA:268,0
+DA:270,0
+DA:271,0
+DA:272,0
+DA:273,0
+DA:274,0
+DA:275,0
+DA:276,0
+DA:277,0
+DA:278,0
+DA:279,0
+DA:280,0
+DA:281,0
+DA:282,0
+DA:283,0
+DA:284,0
+DA:285,0
+DA:286,0
+DA:287,0
+DA:288,0
+DA:289,0
+DA:290,0
+DA:291,0
+DA:292,0
+DA:294,0
+DA:295,0
+DA:296,0
+DA:297,0
+DA:298,0
+DA:300,0
+DA:301,0
+DA:302,0
+DA:303,0
+DA:305,0
+DA:306,0
+DA:307,0
+DA:308,0
+DA:310,0
+DA:311,0
+DA:312,0
+DA:313,0
+DA:315,0
+DA:316,0
+DA:317,0
+DA:318,0
+DA:320,0
+DA:321,0
+DA:322,0
+DA:323,0
+DA:324,0
+DA:326,0
+DA:327,0
+DA:328,0
+DA:329,0
+DA:331,0
+DA:332,0
+DA:333,0
+DA:334,0
+DA:336,0
+DA:337,0
+DA:338,0
+DA:339,0
+DA:341,0
+DA:342,0
+DA:343,0
+DA:344,0
+DA:346,0
+DA:347,0
+DA:348,0
+DA:349,0
+DA:351,0
+DA:352,0
+DA:353,0
+DA:354,0
+DA:356,0
+DA:357,0
+DA:358,0
+DA:359,0
+DA:361,0
+DA:362,0
+DA:363,0
+DA:364,0
+DA:365,0
+FN:368,System.Void PARTS.DAL.Migrations.initial::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+FNDA:0,System.Void PARTS.DAL.Migrations.initial::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+DA:369,0
+DA:370,0
+DA:371,0
+DA:373,0
+DA:374,0
+DA:376,0
+DA:377,0
+DA:379,0
+DA:380,0
+DA:382,0
+DA:383,0
+DA:385,0
+DA:386,0
+DA:388,0
+DA:389,0
+DA:391,0
+DA:392,0
+DA:394,0
+DA:395,0
+DA:397,0
+DA:398,0
+DA:400,0
+DA:401,0
+DA:403,0
+DA:404,0
+DA:405,0
+LF:354
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Migrations\20240523104732_initial.Designer.cs
+FN:19,System.Void PARTS.DAL.Migrations.initial::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:0,System.Void PARTS.DAL.Migrations.initial::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:20,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:26,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:131,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:142,0
+DA:143,0
+DA:144,0
+DA:145,0
+DA:146,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:151,0
+DA:152,0
+DA:153,0
+DA:154,0
+DA:155,0
+DA:156,0
+DA:157,0
+DA:158,0
+DA:159,0
+DA:160,0
+DA:161,0
+DA:162,0
+DA:163,0
+DA:164,0
+DA:165,0
+DA:166,0
+DA:167,0
+DA:168,0
+DA:169,0
+DA:170,0
+DA:171,0
+DA:172,0
+DA:173,0
+DA:174,0
+DA:175,0
+DA:176,0
+DA:177,0
+DA:178,0
+DA:179,0
+DA:180,0
+DA:182,0
+DA:183,0
+DA:184,0
+DA:185,0
+DA:186,0
+DA:187,0
+DA:188,0
+DA:189,0
+DA:190,0
+DA:191,0
+DA:192,0
+DA:193,0
+DA:194,0
+DA:195,0
+DA:196,0
+DA:197,0
+DA:198,0
+DA:199,0
+DA:200,0
+DA:201,0
+DA:202,0
+DA:203,0
+DA:204,0
+DA:205,0
+DA:206,0
+DA:207,0
+DA:208,0
+DA:209,0
+DA:210,0
+DA:211,0
+DA:212,0
+DA:213,0
+DA:214,0
+DA:215,0
+DA:217,0
+DA:218,0
+DA:219,0
+DA:220,0
+DA:221,0
+DA:222,0
+DA:223,0
+DA:224,0
+DA:225,0
+DA:226,0
+DA:227,0
+DA:228,0
+DA:229,0
+DA:230,0
+DA:231,0
+DA:232,0
+DA:234,0
+DA:235,0
+DA:236,0
+DA:237,0
+DA:238,0
+DA:239,0
+DA:240,0
+DA:241,0
+DA:242,0
+DA:243,0
+DA:244,0
+DA:245,0
+DA:246,0
+DA:247,0
+DA:248,0
+DA:249,0
+DA:250,0
+DA:251,0
+DA:252,0
+DA:253,0
+DA:254,0
+DA:255,0
+DA:256,0
+DA:257,0
+DA:258,0
+DA:259,0
+DA:260,0
+DA:261,0
+DA:262,0
+DA:263,0
+DA:264,0
+DA:265,0
+DA:266,0
+DA:267,0
+DA:268,0
+DA:270,0
+DA:271,0
+DA:272,0
+DA:273,0
+DA:274,0
+DA:275,0
+DA:276,0
+DA:277,0
+DA:278,0
+DA:279,0
+DA:280,0
+DA:281,0
+DA:282,0
+DA:283,0
+DA:284,0
+DA:285,0
+DA:286,0
+DA:287,0
+DA:288,0
+DA:289,0
+DA:290,0
+DA:291,0
+DA:292,0
+DA:294,0
+DA:295,0
+DA:296,0
+DA:297,0
+DA:298,0
+DA:299,0
+DA:300,0
+DA:301,0
+DA:302,0
+DA:303,0
+DA:304,0
+DA:305,0
+DA:306,0
+DA:307,0
+DA:308,0
+DA:309,0
+DA:310,0
+DA:311,0
+DA:312,0
+DA:313,0
+DA:314,0
+DA:315,0
+DA:316,0
+DA:317,0
+DA:318,0
+DA:319,0
+DA:320,0
+DA:321,0
+DA:323,0
+DA:324,0
+DA:325,0
+DA:326,0
+DA:327,0
+DA:328,0
+DA:329,0
+DA:330,0
+DA:331,0
+DA:332,0
+DA:333,0
+DA:334,0
+DA:335,0
+DA:336,0
+DA:337,0
+DA:338,0
+DA:339,0
+DA:340,0
+DA:341,0
+DA:342,0
+DA:343,0
+DA:344,0
+DA:345,0
+DA:346,0
+DA:347,0
+DA:348,0
+DA:349,0
+DA:350,0
+DA:352,0
+DA:353,0
+DA:354,0
+DA:355,0
+DA:356,0
+DA:357,0
+DA:358,0
+DA:359,0
+DA:360,0
+DA:361,0
+DA:362,0
+DA:363,0
+DA:364,0
+DA:365,0
+DA:366,0
+DA:367,0
+DA:368,0
+DA:369,0
+DA:370,0
+DA:371,0
+DA:372,0
+DA:373,0
+DA:374,0
+DA:375,0
+DA:376,0
+DA:377,0
+DA:378,0
+DA:379,0
+DA:380,0
+DA:381,0
+DA:382,0
+DA:383,0
+DA:384,0
+DA:385,0
+DA:386,0
+DA:387,0
+DA:388,0
+DA:389,0
+DA:390,0
+DA:391,0
+DA:392,0
+DA:393,0
+DA:394,0
+DA:395,0
+DA:396,0
+DA:398,0
+DA:399,0
+DA:400,0
+DA:401,0
+DA:402,0
+DA:403,0
+DA:404,0
+DA:405,0
+DA:406,0
+DA:407,0
+DA:408,0
+DA:409,0
+DA:410,0
+DA:411,0
+DA:413,0
+DA:414,0
+DA:415,0
+DA:416,0
+DA:417,0
+DA:418,0
+DA:419,0
+DA:420,0
+DA:421,0
+DA:422,0
+DA:424,0
+DA:425,0
+DA:426,0
+DA:427,0
+DA:428,0
+DA:429,0
+DA:430,0
+DA:431,0
+DA:432,0
+DA:433,0
+DA:434,0
+DA:435,0
+DA:436,0
+DA:437,0
+DA:438,0
+DA:439,0
+DA:440,0
+DA:441,0
+DA:442,0
+DA:443,0
+DA:445,0
+DA:446,0
+DA:447,0
+DA:448,0
+DA:449,0
+DA:450,0
+DA:451,0
+DA:452,0
+DA:453,0
+DA:454,0
+DA:456,0
+DA:457,0
+DA:458,0
+DA:459,0
+DA:460,0
+DA:461,0
+DA:462,0
+DA:463,0
+DA:464,0
+DA:465,0
+DA:466,0
+DA:467,0
+DA:468,0
+DA:469,0
+DA:471,0
+DA:472,0
+DA:473,0
+DA:474,0
+DA:475,0
+DA:476,0
+DA:477,0
+DA:478,0
+DA:480,0
+DA:481,0
+DA:482,0
+DA:483,0
+DA:484,0
+DA:485,0
+DA:486,0
+DA:487,0
+DA:489,0
+DA:490,0
+DA:491,0
+DA:492,0
+DA:493,0
+DA:494,0
+DA:495,0
+DA:496,0
+DA:497,0
+DA:498,0
+DA:499,0
+DA:500,0
+DA:501,0
+DA:502,0
+DA:503,0
+DA:504,0
+DA:505,0
+DA:506,0
+DA:507,0
+DA:508,0
+DA:509,0
+DA:510,0
+DA:511,0
+DA:512,0
+DA:513,0
+DA:514,0
+DA:516,0
+DA:517,0
+DA:518,0
+DA:519,0
+DA:521,0
+DA:522,0
+DA:523,0
+DA:524,0
+DA:525,0
+DA:526,0
+DA:528,0
+DA:529,0
+DA:530,0
+DA:531,0
+DA:533,0
+DA:534,0
+DA:535,0
+DA:536,0
+DA:538,0
+DA:539,0
+DA:540,0
+DA:541,0
+DA:542,0
+DA:543,0
+DA:544,0
+DA:545,0
+DA:547,0
+DA:548,0
+DA:549,0
+DA:550,0
+DA:551,0
+DA:552,0
+DA:554,0
+DA:555,0
+DA:556,0
+DA:557,0
+DA:558,0
+DA:559,0
+DA:561,0
+DA:562,0
+DA:563,0
+DA:564,0
+DA:566,0
+LF:516
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Migrations\PartsDBContextModelSnapshot.cs
+FN:16,System.Void PARTS.DAL.Migrations.PartsDBContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:0,System.Void PARTS.DAL.Migrations.PartsDBContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:17,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:23,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:131,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:142,0
+DA:143,0
+DA:144,0
+DA:145,0
+DA:146,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:151,0
+DA:152,0
+DA:153,0
+DA:154,0
+DA:155,0
+DA:156,0
+DA:157,0
+DA:158,0
+DA:159,0
+DA:160,0
+DA:161,0
+DA:162,0
+DA:163,0
+DA:164,0
+DA:165,0
+DA:166,0
+DA:167,0
+DA:168,0
+DA:169,0
+DA:170,0
+DA:171,0
+DA:172,0
+DA:173,0
+DA:174,0
+DA:175,0
+DA:176,0
+DA:177,0
+DA:179,0
+DA:180,0
+DA:181,0
+DA:182,0
+DA:183,0
+DA:184,0
+DA:185,0
+DA:186,0
+DA:187,0
+DA:188,0
+DA:189,0
+DA:190,0
+DA:191,0
+DA:192,0
+DA:193,0
+DA:194,0
+DA:195,0
+DA:196,0
+DA:197,0
+DA:198,0
+DA:199,0
+DA:200,0
+DA:201,0
+DA:202,0
+DA:203,0
+DA:204,0
+DA:205,0
+DA:206,0
+DA:207,0
+DA:208,0
+DA:209,0
+DA:210,0
+DA:211,0
+DA:212,0
+DA:214,0
+DA:215,0
+DA:216,0
+DA:217,0
+DA:218,0
+DA:219,0
+DA:220,0
+DA:221,0
+DA:222,0
+DA:223,0
+DA:224,0
+DA:225,0
+DA:226,0
+DA:227,0
+DA:228,0
+DA:229,0
+DA:231,0
+DA:232,0
+DA:233,0
+DA:234,0
+DA:235,0
+DA:236,0
+DA:237,0
+DA:238,0
+DA:239,0
+DA:240,0
+DA:241,0
+DA:242,0
+DA:243,0
+DA:244,0
+DA:245,0
+DA:246,0
+DA:247,0
+DA:248,0
+DA:249,0
+DA:250,0
+DA:251,0
+DA:252,0
+DA:253,0
+DA:254,0
+DA:255,0
+DA:256,0
+DA:257,0
+DA:258,0
+DA:259,0
+DA:260,0
+DA:261,0
+DA:262,0
+DA:263,0
+DA:264,0
+DA:265,0
+DA:267,0
+DA:268,0
+DA:269,0
+DA:270,0
+DA:271,0
+DA:272,0
+DA:273,0
+DA:274,0
+DA:275,0
+DA:276,0
+DA:277,0
+DA:278,0
+DA:279,0
+DA:280,0
+DA:281,0
+DA:282,0
+DA:283,0
+DA:284,0
+DA:285,0
+DA:286,0
+DA:287,0
+DA:288,0
+DA:289,0
+DA:291,0
+DA:292,0
+DA:293,0
+DA:294,0
+DA:295,0
+DA:296,0
+DA:297,0
+DA:298,0
+DA:299,0
+DA:300,0
+DA:301,0
+DA:302,0
+DA:303,0
+DA:304,0
+DA:305,0
+DA:306,0
+DA:307,0
+DA:308,0
+DA:309,0
+DA:310,0
+DA:311,0
+DA:312,0
+DA:313,0
+DA:314,0
+DA:315,0
+DA:316,0
+DA:317,0
+DA:318,0
+DA:320,0
+DA:321,0
+DA:322,0
+DA:323,0
+DA:324,0
+DA:325,0
+DA:326,0
+DA:327,0
+DA:328,0
+DA:329,0
+DA:330,0
+DA:331,0
+DA:332,0
+DA:333,0
+DA:334,0
+DA:335,0
+DA:336,0
+DA:337,0
+DA:338,0
+DA:339,0
+DA:340,0
+DA:341,0
+DA:342,0
+DA:343,0
+DA:344,0
+DA:345,0
+DA:346,0
+DA:347,0
+DA:349,0
+DA:350,0
+DA:351,0
+DA:352,0
+DA:353,0
+DA:354,0
+DA:355,0
+DA:356,0
+DA:357,0
+DA:358,0
+DA:359,0
+DA:360,0
+DA:361,0
+DA:362,0
+DA:363,0
+DA:364,0
+DA:365,0
+DA:366,0
+DA:367,0
+DA:368,0
+DA:369,0
+DA:370,0
+DA:371,0
+DA:372,0
+DA:373,0
+DA:374,0
+DA:375,0
+DA:376,0
+DA:377,0
+DA:378,0
+DA:379,0
+DA:380,0
+DA:381,0
+DA:382,0
+DA:383,0
+DA:384,0
+DA:385,0
+DA:386,0
+DA:387,0
+DA:388,0
+DA:389,0
+DA:390,0
+DA:391,0
+DA:392,0
+DA:393,0
+DA:395,0
+DA:396,0
+DA:397,0
+DA:398,0
+DA:399,0
+DA:400,0
+DA:401,0
+DA:402,0
+DA:403,0
+DA:404,0
+DA:405,0
+DA:406,0
+DA:407,0
+DA:408,0
+DA:410,0
+DA:411,0
+DA:412,0
+DA:413,0
+DA:414,0
+DA:415,0
+DA:416,0
+DA:417,0
+DA:418,0
+DA:419,0
+DA:421,0
+DA:422,0
+DA:423,0
+DA:424,0
+DA:425,0
+DA:426,0
+DA:427,0
+DA:428,0
+DA:429,0
+DA:430,0
+DA:431,0
+DA:432,0
+DA:433,0
+DA:434,0
+DA:435,0
+DA:436,0
+DA:437,0
+DA:438,0
+DA:439,0
+DA:440,0
+DA:442,0
+DA:443,0
+DA:444,0
+DA:445,0
+DA:446,0
+DA:447,0
+DA:448,0
+DA:449,0
+DA:450,0
+DA:451,0
+DA:453,0
+DA:454,0
+DA:455,0
+DA:456,0
+DA:457,0
+DA:458,0
+DA:459,0
+DA:460,0
+DA:461,0
+DA:462,0
+DA:463,0
+DA:464,0
+DA:465,0
+DA:466,0
+DA:468,0
+DA:469,0
+DA:470,0
+DA:471,0
+DA:472,0
+DA:473,0
+DA:474,0
+DA:475,0
+DA:477,0
+DA:478,0
+DA:479,0
+DA:480,0
+DA:481,0
+DA:482,0
+DA:483,0
+DA:484,0
+DA:486,0
+DA:487,0
+DA:488,0
+DA:489,0
+DA:490,0
+DA:491,0
+DA:492,0
+DA:493,0
+DA:494,0
+DA:495,0
+DA:496,0
+DA:497,0
+DA:498,0
+DA:499,0
+DA:500,0
+DA:501,0
+DA:502,0
+DA:503,0
+DA:504,0
+DA:505,0
+DA:506,0
+DA:507,0
+DA:508,0
+DA:509,0
+DA:510,0
+DA:511,0
+DA:513,0
+DA:514,0
+DA:515,0
+DA:516,0
+DA:518,0
+DA:519,0
+DA:520,0
+DA:521,0
+DA:522,0
+DA:523,0
+DA:525,0
+DA:526,0
+DA:527,0
+DA:528,0
+DA:530,0
+DA:531,0
+DA:532,0
+DA:533,0
+DA:535,0
+DA:536,0
+DA:537,0
+DA:538,0
+DA:539,0
+DA:540,0
+DA:541,0
+DA:542,0
+DA:544,0
+DA:545,0
+DA:546,0
+DA:547,0
+DA:548,0
+DA:549,0
+DA:551,0
+DA:552,0
+DA:553,0
+DA:554,0
+DA:555,0
+DA:556,0
+DA:558,0
+DA:559,0
+DA:560,0
+DA:561,0
+DA:563,0
+LF:516
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Excepstions\EntityNotFoundException.cs
+FN:7,System.Void PARTS.DAL.Excepstions.EntityNotFoundException::.ctor(System.String)
+FNDA:3,System.Void PARTS.DAL.Excepstions.EntityNotFoundException::.ctor(System.String)
+DA:8,3
+DA:9,3
+DA:10,3
+FN:12,System.Void PARTS.DAL.Excepstions.EntityNotFoundException::.ctor()
+FNDA:0,System.Void PARTS.DAL.Excepstions.EntityNotFoundException::.ctor()
+DA:13,0
+DA:14,0
+DA:15,0
+LF:6
+LH:3
+BRF:0
+BRH:0
+FNF:2
+FNH:1
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Entities\Base.cs
+FN:8,System.Guid PARTS.DAL.Entities.Base::get_Id()
+FNDA:209,System.Guid PARTS.DAL.Entities.Base::get_Id()
+DA:9,209
+FN:9,System.DateTime PARTS.DAL.Entities.Base::get_Timestamp()
+FNDA:154,System.DateTime PARTS.DAL.Entities.Base::get_Timestamp()
+DA:10,154
+FN:4,System.Void PARTS.DAL.Entities.Base::.ctor()
+FNDA:123,System.Void PARTS.DAL.Entities.Base::.ctor()
+DA:5,123
+DA:6,123
+DA:7,123
+LF:5
+LH:5
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Entities\Order.cs
+FN:11,System.Nullable`1<System.Guid> PARTS.DAL.Entities.Order::get_СustomerId()
+FNDA:0,System.Nullable`1<System.Guid> PARTS.DAL.Entities.Order::get_СustomerId()
+DA:12,0
+FN:12,System.Collections.Generic.List`1<PARTS.DAL.Entities.Item.Part> PARTS.DAL.Entities.Order::get_Parts()
+FNDA:15,System.Collections.Generic.List`1<PARTS.DAL.Entities.Item.Part> PARTS.DAL.Entities.Order::get_Parts()
+DA:13,15
+LF:2
+LH:1
+BRF:0
+BRH:0
+FNF:2
+FNH:1
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Entities\Vehicle\Engine.cs
+FN:4,System.Int32 PARTS.DAL.Entities.Vehicle.Engine::get_Cylinders()
+FNDA:0,System.Int32 PARTS.DAL.Entities.Vehicle.Engine::get_Cylinders()
+DA:5,0
+FN:5,System.Int32 PARTS.DAL.Entities.Vehicle.Engine::get_Liter()
+FNDA:0,System.Int32 PARTS.DAL.Entities.Vehicle.Engine::get_Liter()
+DA:6,0
+FN:6,System.Nullable`1<System.DateTime> PARTS.DAL.Entities.Vehicle.Engine::get_Year()
+FNDA:0,System.Nullable`1<System.DateTime> PARTS.DAL.Entities.Vehicle.Engine::get_Year()
+DA:7,0
+FN:7,System.String PARTS.DAL.Entities.Vehicle.Engine::get_Model()
+FNDA:0,System.String PARTS.DAL.Entities.Vehicle.Engine::get_Model()
+DA:8,0
+FN:8,PARTS.DAL.Entities.Vehicle.SubModel PARTS.DAL.Entities.Vehicle.Engine::get_SubModel()
+FNDA:0,PARTS.DAL.Entities.Vehicle.SubModel PARTS.DAL.Entities.Vehicle.Engine::get_SubModel()
+DA:9,0
+FN:9,PARTS.DAL.Entities.Vehicle.Make PARTS.DAL.Entities.Vehicle.Engine::get_Make()
+FNDA:0,PARTS.DAL.Entities.Vehicle.Make PARTS.DAL.Entities.Vehicle.Engine::get_Make()
+DA:10,0
+FN:10,System.Collections.Generic.List`1<PARTS.DAL.Entities.Vehicle.Vehicle> PARTS.DAL.Entities.Vehicle.Engine::get_Vehicles()
+FNDA:0,System.Collections.Generic.List`1<PARTS.DAL.Entities.Vehicle.Vehicle> PARTS.DAL.Entities.Vehicle.Engine::get_Vehicles()
+DA:11,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:7
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Entities\Vehicle\Make.cs
+FN:4,System.String PARTS.DAL.Entities.Vehicle.Make::get_Title()
+FNDA:0,System.String PARTS.DAL.Entities.Vehicle.Make::get_Title()
+DA:5,0
+FN:5,System.String PARTS.DAL.Entities.Vehicle.Make::get_Description()
+FNDA:0,System.String PARTS.DAL.Entities.Vehicle.Make::get_Description()
+DA:6,0
+FN:6,System.Nullable`1<System.DateTime> PARTS.DAL.Entities.Vehicle.Make::get_Year()
+FNDA:0,System.Nullable`1<System.DateTime> PARTS.DAL.Entities.Vehicle.Make::get_Year()
+DA:7,0
+FN:8,System.Collections.Generic.List`1<PARTS.DAL.Entities.Vehicle.Vehicle> PARTS.DAL.Entities.Vehicle.Make::get_Vehicles()
+FNDA:0,System.Collections.Generic.List`1<PARTS.DAL.Entities.Vehicle.Vehicle> PARTS.DAL.Entities.Vehicle.Make::get_Vehicles()
+DA:9,0
+FN:9,System.Collections.Generic.List`1<PARTS.DAL.Entities.Vehicle.Model> PARTS.DAL.Entities.Vehicle.Make::get_Models()
+FNDA:0,System.Collections.Generic.List`1<PARTS.DAL.Entities.Vehicle.Model> PARTS.DAL.Entities.Vehicle.Make::get_Models()
+DA:10,0
+FN:10,System.Collections.Generic.List`1<PARTS.DAL.Entities.Vehicle.Engine> PARTS.DAL.Entities.Vehicle.Make::get_Engines()
+FNDA:0,System.Collections.Generic.List`1<PARTS.DAL.Entities.Vehicle.Engine> PARTS.DAL.Entities.Vehicle.Make::get_Engines()
+DA:11,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Entities\Vehicle\Model.cs
+FN:4,System.String PARTS.DAL.Entities.Vehicle.Model::get_Title()
+FNDA:0,System.String PARTS.DAL.Entities.Vehicle.Model::get_Title()
+DA:5,0
+FN:5,System.String PARTS.DAL.Entities.Vehicle.Model::get_Description()
+FNDA:0,System.String PARTS.DAL.Entities.Vehicle.Model::get_Description()
+DA:6,0
+FN:6,System.Nullable`1<System.DateTime> PARTS.DAL.Entities.Vehicle.Model::get_Year()
+FNDA:0,System.Nullable`1<System.DateTime> PARTS.DAL.Entities.Vehicle.Model::get_Year()
+DA:7,0
+FN:7,PARTS.DAL.Entities.Vehicle.Make PARTS.DAL.Entities.Vehicle.Model::get_Make()
+FNDA:0,PARTS.DAL.Entities.Vehicle.Make PARTS.DAL.Entities.Vehicle.Model::get_Make()
+DA:8,0
+FN:8,System.Collections.Generic.List`1<PARTS.DAL.Entities.Vehicle.Vehicle> PARTS.DAL.Entities.Vehicle.Model::get_Vehicles()
+FNDA:0,System.Collections.Generic.List`1<PARTS.DAL.Entities.Vehicle.Vehicle> PARTS.DAL.Entities.Vehicle.Model::get_Vehicles()
+DA:9,0
+FN:9,System.Collections.Generic.List`1<PARTS.DAL.Entities.Vehicle.SubModel> PARTS.DAL.Entities.Vehicle.Model::get_SubModels()
+FNDA:0,System.Collections.Generic.List`1<PARTS.DAL.Entities.Vehicle.SubModel> PARTS.DAL.Entities.Vehicle.Model::get_SubModels()
+DA:10,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Entities\Vehicle\SubModel.cs
+FN:4,System.String PARTS.DAL.Entities.Vehicle.SubModel::get_Title()
+FNDA:0,System.String PARTS.DAL.Entities.Vehicle.SubModel::get_Title()
+DA:5,0
+FN:5,System.String PARTS.DAL.Entities.Vehicle.SubModel::get_Description()
+FNDA:0,System.String PARTS.DAL.Entities.Vehicle.SubModel::get_Description()
+DA:6,0
+FN:6,System.DateTime PARTS.DAL.Entities.Vehicle.SubModel::get_Year()
+FNDA:0,System.DateTime PARTS.DAL.Entities.Vehicle.SubModel::get_Year()
+DA:7,0
+FN:7,PARTS.DAL.Entities.Vehicle.Model PARTS.DAL.Entities.Vehicle.SubModel::get_Model()
+FNDA:0,PARTS.DAL.Entities.Vehicle.Model PARTS.DAL.Entities.Vehicle.SubModel::get_Model()
+DA:8,0
+FN:8,System.Collections.Generic.List`1<PARTS.DAL.Entities.Vehicle.Vehicle> PARTS.DAL.Entities.Vehicle.SubModel::get_Vehicles()
+FNDA:0,System.Collections.Generic.List`1<PARTS.DAL.Entities.Vehicle.Vehicle> PARTS.DAL.Entities.Vehicle.SubModel::get_Vehicles()
+DA:9,0
+FN:9,System.Collections.Generic.List`1<PARTS.DAL.Entities.Vehicle.Engine> PARTS.DAL.Entities.Vehicle.SubModel::get_Engines()
+FNDA:0,System.Collections.Generic.List`1<PARTS.DAL.Entities.Vehicle.Engine> PARTS.DAL.Entities.Vehicle.SubModel::get_Engines()
+DA:10,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Entities\Vehicle\Vehicle.cs
+FN:6,System.String PARTS.DAL.Entities.Vehicle.Vehicle::get_FullModelName()
+FNDA:0,System.String PARTS.DAL.Entities.Vehicle.Vehicle::get_FullModelName()
+DA:7,0
+FN:7,System.String PARTS.DAL.Entities.Vehicle.Vehicle::get_VIN()
+FNDA:0,System.String PARTS.DAL.Entities.Vehicle.Vehicle::get_VIN()
+DA:8,0
+FN:8,System.Nullable`1<System.DateTime> PARTS.DAL.Entities.Vehicle.Vehicle::get_Year()
+FNDA:0,System.Nullable`1<System.DateTime> PARTS.DAL.Entities.Vehicle.Vehicle::get_Year()
+DA:9,0
+FN:9,PARTS.DAL.Entities.Vehicle.Make PARTS.DAL.Entities.Vehicle.Vehicle::get_Make()
+FNDA:0,PARTS.DAL.Entities.Vehicle.Make PARTS.DAL.Entities.Vehicle.Vehicle::get_Make()
+DA:10,0
+FN:10,PARTS.DAL.Entities.Vehicle.Model PARTS.DAL.Entities.Vehicle.Vehicle::get_Model()
+FNDA:0,PARTS.DAL.Entities.Vehicle.Model PARTS.DAL.Entities.Vehicle.Vehicle::get_Model()
+DA:11,0
+FN:11,PARTS.DAL.Entities.Vehicle.SubModel PARTS.DAL.Entities.Vehicle.Vehicle::get_SubModel()
+FNDA:0,PARTS.DAL.Entities.Vehicle.SubModel PARTS.DAL.Entities.Vehicle.Vehicle::get_SubModel()
+DA:12,0
+FN:12,PARTS.DAL.Entities.Vehicle.Engine PARTS.DAL.Entities.Vehicle.Vehicle::get_Engine()
+FNDA:0,PARTS.DAL.Entities.Vehicle.Engine PARTS.DAL.Entities.Vehicle.Vehicle::get_Engine()
+DA:13,0
+FN:13,System.String PARTS.DAL.Entities.Vehicle.Vehicle::get_URL()
+FNDA:0,System.String PARTS.DAL.Entities.Vehicle.Vehicle::get_URL()
+DA:14,0
+FN:14,System.Collections.Generic.List`1<PARTS.DAL.Entities.Item.Part> PARTS.DAL.Entities.Vehicle.Vehicle::get_Parts()
+FNDA:0,System.Collections.Generic.List`1<PARTS.DAL.Entities.Item.Part> PARTS.DAL.Entities.Vehicle.Vehicle::get_Parts()
+DA:15,0
+LF:9
+LH:0
+BRF:0
+BRH:0
+FNF:9
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Entities\Item\Brand.cs
+FN:4,System.String PARTS.DAL.Entities.Item.Brand::get_Title()
+FNDA:49,System.String PARTS.DAL.Entities.Item.Brand::get_Title()
+DA:5,49
+FN:5,System.String PARTS.DAL.Entities.Item.Brand::get_Description()
+FNDA:10,System.String PARTS.DAL.Entities.Item.Brand::get_Description()
+DA:6,10
+FN:6,System.Collections.Generic.List`1<PARTS.DAL.Entities.Item.Part> PARTS.DAL.Entities.Item.Brand::get_Parts()
+FNDA:10,System.Collections.Generic.List`1<PARTS.DAL.Entities.Item.Part> PARTS.DAL.Entities.Item.Brand::get_Parts()
+DA:7,10
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Entities\Item\Category.cs
+FN:6,System.String PARTS.DAL.Entities.Item.Category::get_Title()
+FNDA:49,System.String PARTS.DAL.Entities.Item.Category::get_Title()
+DA:7,49
+FN:7,System.String PARTS.DAL.Entities.Item.Category::get_Description()
+FNDA:10,System.String PARTS.DAL.Entities.Item.Category::get_Description()
+DA:8,10
+FN:8,PARTS.DAL.Entities.Item.CategoryImage PARTS.DAL.Entities.Item.Category::get_CategoryImage()
+FNDA:10,PARTS.DAL.Entities.Item.CategoryImage PARTS.DAL.Entities.Item.Category::get_CategoryImage()
+DA:9,10
+FN:9,System.Collections.Generic.List`1<PARTS.DAL.Entities.Item.Part> PARTS.DAL.Entities.Item.Category::get_Parts()
+FNDA:10,System.Collections.Generic.List`1<PARTS.DAL.Entities.Item.Part> PARTS.DAL.Entities.Item.Category::get_Parts()
+DA:10,10
+LF:4
+LH:4
+BRF:0
+BRH:0
+FNF:4
+FNH:4
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Entities\Item\CategoryImage.cs
+FN:4,System.String PARTS.DAL.Entities.Item.CategoryImage::get_SourceContentType()
+FNDA:0,System.String PARTS.DAL.Entities.Item.CategoryImage::get_SourceContentType()
+DA:5,0
+FN:5,System.String PARTS.DAL.Entities.Item.CategoryImage::get_HashFileContent()
+FNDA:0,System.String PARTS.DAL.Entities.Item.CategoryImage::get_HashFileContent()
+DA:6,0
+FN:6,System.Nullable`1<System.Int32> PARTS.DAL.Entities.Item.CategoryImage::get_Size()
+FNDA:0,System.Nullable`1<System.Int32> PARTS.DAL.Entities.Item.CategoryImage::get_Size()
+DA:7,0
+FN:7,System.String PARTS.DAL.Entities.Item.CategoryImage::get_Path()
+FNDA:0,System.String PARTS.DAL.Entities.Item.CategoryImage::get_Path()
+DA:8,0
+FN:8,System.String PARTS.DAL.Entities.Item.CategoryImage::get_Title()
+FNDA:0,System.String PARTS.DAL.Entities.Item.CategoryImage::get_Title()
+DA:9,0
+FN:9,System.Guid PARTS.DAL.Entities.Item.CategoryImage::get_CategoryId()
+FNDA:0,System.Guid PARTS.DAL.Entities.Item.CategoryImage::get_CategoryId()
+DA:10,0
+FN:10,PARTS.DAL.Entities.Item.Category PARTS.DAL.Entities.Item.CategoryImage::get_Category()
+FNDA:0,PARTS.DAL.Entities.Item.Category PARTS.DAL.Entities.Item.CategoryImage::get_Category()
+DA:11,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:7
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Entities\Item\Part.cs
+FN:4,System.String PARTS.DAL.Entities.Item.Part::get_PartNumber()
+FNDA:46,System.String PARTS.DAL.Entities.Item.Part::get_PartNumber()
+DA:5,46
+FN:5,System.String PARTS.DAL.Entities.Item.Part::get_ManufacturerNumber()
+FNDA:11,System.String PARTS.DAL.Entities.Item.Part::get_ManufacturerNumber()
+DA:6,11
+FN:6,System.String PARTS.DAL.Entities.Item.Part::get_Description()
+FNDA:11,System.String PARTS.DAL.Entities.Item.Part::get_Description()
+DA:7,11
+FN:7,System.String PARTS.DAL.Entities.Item.Part::get_PartName()
+FNDA:37,System.String PARTS.DAL.Entities.Item.Part::get_PartName()
+DA:8,37
+FN:8,System.Nullable`1<System.Boolean> PARTS.DAL.Entities.Item.Part::get_IsUniversal()
+FNDA:11,System.Nullable`1<System.Boolean> PARTS.DAL.Entities.Item.Part::get_IsUniversal()
+DA:9,11
+FN:9,System.Nullable`1<System.Int32> PARTS.DAL.Entities.Item.Part::get_PriceRegular()
+FNDA:30,System.Nullable`1<System.Int32> PARTS.DAL.Entities.Item.Part::get_PriceRegular()
+DA:10,30
+FN:10,System.String PARTS.DAL.Entities.Item.Part::get_PartTitle()
+FNDA:11,System.String PARTS.DAL.Entities.Item.Part::get_PartTitle()
+DA:11,11
+FN:11,System.String PARTS.DAL.Entities.Item.Part::get_PartAttributes()
+FNDA:11,System.String PARTS.DAL.Entities.Item.Part::get_PartAttributes()
+DA:12,11
+FN:12,System.Nullable`1<System.Boolean> PARTS.DAL.Entities.Item.Part::get_IsMadeToOrder()
+FNDA:11,System.Nullable`1<System.Boolean> PARTS.DAL.Entities.Item.Part::get_IsMadeToOrder()
+DA:13,11
+FN:13,System.String PARTS.DAL.Entities.Item.Part::get_FitNotes()
+FNDA:11,System.String PARTS.DAL.Entities.Item.Part::get_FitNotes()
+DA:14,11
+FN:14,System.Nullable`1<System.Int32> PARTS.DAL.Entities.Item.Part::get_Count()
+FNDA:11,System.Nullable`1<System.Int32> PARTS.DAL.Entities.Item.Part::get_Count()
+DA:15,11
+FN:15,System.Guid PARTS.DAL.Entities.Item.Part::get_CategoryId()
+FNDA:46,System.Guid PARTS.DAL.Entities.Item.Part::get_CategoryId()
+DA:16,46
+FN:16,PARTS.DAL.Entities.Item.Brand PARTS.DAL.Entities.Item.Part::get_Brand()
+FNDA:11,PARTS.DAL.Entities.Item.Brand PARTS.DAL.Entities.Item.Part::get_Brand()
+DA:17,11
+FN:17,PARTS.DAL.Entities.Item.Category PARTS.DAL.Entities.Item.Part::get_Category()
+FNDA:4,PARTS.DAL.Entities.Item.Category PARTS.DAL.Entities.Item.Part::get_Category()
+DA:18,4
+FN:18,PARTS.DAL.Entities.Item.PartImage PARTS.DAL.Entities.Item.Part::get_PartImage()
+FNDA:0,PARTS.DAL.Entities.Item.PartImage PARTS.DAL.Entities.Item.Part::get_PartImage()
+DA:19,0
+FN:19,System.Collections.Generic.List`1<PARTS.DAL.Entities.Order> PARTS.DAL.Entities.Item.Part::get_Orders()
+FNDA:57,System.Collections.Generic.List`1<PARTS.DAL.Entities.Order> PARTS.DAL.Entities.Item.Part::get_Orders()
+DA:20,57
+LF:16
+LH:15
+BRF:0
+BRH:0
+FNF:16
+FNH:15
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Entities\Item\PartImage.cs
+FN:4,System.String PARTS.DAL.Entities.Item.PartImage::get_SourceContentType()
+FNDA:0,System.String PARTS.DAL.Entities.Item.PartImage::get_SourceContentType()
+DA:5,0
+FN:5,System.String PARTS.DAL.Entities.Item.PartImage::get_HashFileContent()
+FNDA:0,System.String PARTS.DAL.Entities.Item.PartImage::get_HashFileContent()
+DA:6,0
+FN:6,System.Nullable`1<System.Int32> PARTS.DAL.Entities.Item.PartImage::get_Size()
+FNDA:0,System.Nullable`1<System.Int32> PARTS.DAL.Entities.Item.PartImage::get_Size()
+DA:7,0
+FN:7,System.String PARTS.DAL.Entities.Item.PartImage::get_Path()
+FNDA:0,System.String PARTS.DAL.Entities.Item.PartImage::get_Path()
+DA:8,0
+FN:8,System.String PARTS.DAL.Entities.Item.PartImage::get_Title()
+FNDA:0,System.String PARTS.DAL.Entities.Item.PartImage::get_Title()
+DA:9,0
+FN:9,System.Guid PARTS.DAL.Entities.Item.PartImage::get_PartId()
+FNDA:0,System.Guid PARTS.DAL.Entities.Item.PartImage::get_PartId()
+DA:10,0
+FN:10,PARTS.DAL.Entities.Item.Part PARTS.DAL.Entities.Item.PartImage::get_Part()
+FNDA:0,PARTS.DAL.Entities.Item.Part PARTS.DAL.Entities.Item.PartImage::get_Part()
+DA:11,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:7
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Data\PartsDBContext.cs
+FN:20,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Item.Brand> PARTS.DAL.Data.PartsDBContext::get_Brands()
+FNDA:18,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Item.Brand> PARTS.DAL.Data.PartsDBContext::get_Brands()
+DA:21,18
+FN:21,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Item.CategoryImage> PARTS.DAL.Data.PartsDBContext::get_CategoryImages()
+FNDA:18,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Item.CategoryImage> PARTS.DAL.Data.PartsDBContext::get_CategoryImages()
+DA:22,18
+FN:22,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Item.Category> PARTS.DAL.Data.PartsDBContext::get_Categories()
+FNDA:18,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Item.Category> PARTS.DAL.Data.PartsDBContext::get_Categories()
+DA:23,18
+FN:23,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Item.Part> PARTS.DAL.Data.PartsDBContext::get_Parts()
+FNDA:18,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Item.Part> PARTS.DAL.Data.PartsDBContext::get_Parts()
+DA:24,18
+FN:24,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Item.PartImage> PARTS.DAL.Data.PartsDBContext::get_PartImages()
+FNDA:18,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Item.PartImage> PARTS.DAL.Data.PartsDBContext::get_PartImages()
+DA:25,18
+FN:25,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Vehicle.Engine> PARTS.DAL.Data.PartsDBContext::get_Engines()
+FNDA:18,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Vehicle.Engine> PARTS.DAL.Data.PartsDBContext::get_Engines()
+DA:26,18
+FN:26,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Vehicle.Make> PARTS.DAL.Data.PartsDBContext::get_Makes()
+FNDA:18,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Vehicle.Make> PARTS.DAL.Data.PartsDBContext::get_Makes()
+DA:27,18
+FN:27,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Vehicle.Model> PARTS.DAL.Data.PartsDBContext::get_Models()
+FNDA:18,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Vehicle.Model> PARTS.DAL.Data.PartsDBContext::get_Models()
+DA:28,18
+FN:28,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Vehicle.SubModel> PARTS.DAL.Data.PartsDBContext::get_SubModels()
+FNDA:18,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Vehicle.SubModel> PARTS.DAL.Data.PartsDBContext::get_SubModels()
+DA:29,18
+FN:29,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Vehicle.Vehicle> PARTS.DAL.Data.PartsDBContext::get_Vehicles()
+FNDA:18,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Vehicle.Vehicle> PARTS.DAL.Data.PartsDBContext::get_Vehicles()
+DA:30,18
+FN:30,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Order> PARTS.DAL.Data.PartsDBContext::get_Orders()
+FNDA:18,Microsoft.EntityFrameworkCore.DbSet`1<PARTS.DAL.Entities.Order> PARTS.DAL.Data.PartsDBContext::get_Orders()
+DA:31,18
+FN:38,System.Void PARTS.DAL.Data.PartsDBContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:0,System.Void PARTS.DAL.Data.PartsDBContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:39,0
+DA:40,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:54,0
+FN:10,System.Void PARTS.DAL.Data.PartsDBContext::.ctor()
+FNDA:18,System.Void PARTS.DAL.Data.PartsDBContext::.ctor()
+DA:11,18
+DA:12,18
+DA:13,18
+FN:14,System.Void PARTS.DAL.Data.PartsDBContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions)
+FNDA:0,System.Void PARTS.DAL.Data.PartsDBContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions)
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+LF:32
+LH:14
+BRF:0
+BRH:0
+FNF:14
+FNH:12
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Data\Configurations\BrandConfiguration.cs
+FN:9,System.Void PARTS.DAL.Data.Configurations.BrandConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Item.Brand>)
+FNDA:0,System.Void PARTS.DAL.Data.Configurations.BrandConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Item.Brand>)
+DA:10,0
+DA:11,0
+DA:17,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Data\Configurations\CategoryImageConfiguration.cs
+FN:9,System.Void PARTS.DAL.Data.Configurations.CategoryImageConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Item.CategoryImage>)
+FNDA:0,System.Void PARTS.DAL.Data.Configurations.CategoryImageConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Item.CategoryImage>)
+DA:10,0
+DA:11,0
+DA:13,0
+DA:19,0
+LF:4
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Data\Configurations\CategotyConfiguration.cs
+FN:9,System.Void PARTS.DAL.Data.Configurations.CategotyConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Item.Category>)
+FNDA:0,System.Void PARTS.DAL.Data.Configurations.CategotyConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Item.Category>)
+DA:10,0
+DA:11,0
+DA:14,0
+DA:19,0
+LF:4
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Data\Configurations\EngineConfiguration.cs
+FN:9,System.Void PARTS.DAL.Data.Configurations.EngineConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Vehicle.Engine>)
+FNDA:0,System.Void PARTS.DAL.Data.Configurations.EngineConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Vehicle.Engine>)
+DA:10,0
+DA:11,0
+DA:13,0
+DA:14,0
+DA:20,0
+LF:5
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Data\Configurations\MakeConfiguration.cs
+FN:9,System.Void PARTS.DAL.Data.Configurations.MakeConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Vehicle.Make>)
+FNDA:0,System.Void PARTS.DAL.Data.Configurations.MakeConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Vehicle.Make>)
+DA:10,0
+DA:11,0
+DA:21,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Data\Configurations\ModelConfiguration.cs
+FN:9,System.Void PARTS.DAL.Data.Configurations.ModelConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Vehicle.Model>)
+FNDA:0,System.Void PARTS.DAL.Data.Configurations.ModelConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Vehicle.Model>)
+DA:10,0
+DA:11,0
+DA:13,0
+DA:21,0
+LF:4
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Data\Configurations\OrderConfiguration.cs
+FN:10,System.Void PARTS.DAL.Data.Configurations.OrderConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Order>)
+FNDA:0,System.Void PARTS.DAL.Data.Configurations.OrderConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Order>)
+DA:11,0
+DA:12,0
+DA:14,0
+DA:17,0
+LF:4
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Data\Configurations\PartConfiguration.cs
+FN:9,System.Void PARTS.DAL.Data.Configurations.PartConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Item.Part>)
+FNDA:0,System.Void PARTS.DAL.Data.Configurations.PartConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Item.Part>)
+DA:10,0
+DA:11,0
+DA:13,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:21,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Data\Configurations\PartImageConfiguration.cs
+FN:9,System.Void PARTS.DAL.Data.Configurations.PartImageConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Item.PartImage>)
+FNDA:0,System.Void PARTS.DAL.Data.Configurations.PartImageConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Item.PartImage>)
+DA:10,0
+DA:11,0
+DA:13,0
+DA:19,0
+LF:4
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Data\Configurations\SubModelConfiguration.cs
+FN:9,System.Void PARTS.DAL.Data.Configurations.SubModelConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Vehicle.SubModel>)
+FNDA:0,System.Void PARTS.DAL.Data.Configurations.SubModelConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Vehicle.SubModel>)
+DA:10,0
+DA:11,0
+DA:13,0
+DA:21,0
+LF:4
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Навчання\курсова\ServiceStation\PARTS.DAL\Data\Configurations\VehicleConfiguration.cs
+FN:9,System.Void PARTS.DAL.Data.Configurations.VehicleConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Vehicle.Vehicle>)
+FNDA:0,System.Void PARTS.DAL.Data.Configurations.VehicleConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<PARTS.DAL.Entities.Vehicle.Vehicle>)
+DA:10,0
+DA:11,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:22,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record

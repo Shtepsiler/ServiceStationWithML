@@ -1,0 +1,6 @@
+@IDENTITY.API_HostAddress = http://localhost:5276
+
+GET {{IDENTITY.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

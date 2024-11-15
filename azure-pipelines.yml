@@ -1,0 +1,30 @@
+# ASP.NET
+# Build and test ASP.NET projects.
+# Add steps that publish symbols, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+jobs:
+- job: build_and_test
+  displayName: 'Build and Test'
+  steps:
+  - checkout: self
+
+  - task: UseDotNet@2
+    displayName: 'Set up .NET Core'
+    inputs:
+      packageType: 'sdk'
+      version: '8.x'
+
+  - script: dotnet restore ./PARTS.API/PARTS.API.csproj
+    displayName: 'Restore dependencies'
+
+  - script: dotnet build ./PARTS.API/PARTS.API.csproj --no-restore
+    displayName: 'Build the project'
+
+  - script: dotnet test ./PARTS.API/PARTS.API.csproj --no-build --verbosity normal
+    displayName: 'Run tests'

@@ -1,0 +1,150 @@
+version: '3.4'
+networks:
+  ServiceStationPartsNetwork:
+
+services:
+
+  rediscash:
+    container_name: RedisCash
+    image: redis:7
+    networks:
+      - ServiceStationPartsNetwork
+    ports:
+      - 6379:6379
+
+  identitydatabase:
+    container_name: IdentityDatabase
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Qwerty123
+    networks:
+      - ServiceStationPartsNetwork
+    ports:
+      - 1434:1433
+    volumes:
+      - identity_data:/var/opt/mssql
+
+  partsdatabase:
+    container_name: PartsDatabase
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Qwerty123
+    networks:
+      - ServiceStationPartsNetwork
+    ports:
+      - 1435:1433
+    volumes:
+      - parts_data:/var/opt/mssql
+
+  jobsdatabase:
+    container_name: JobsDatabase
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Qwerty123
+    networks:
+      - ServiceStationPartsNetwork
+    ports:
+      - 1436:1433
+    volumes:
+      - jobs_data:/var/opt/mssql
+
+  parts.api:
+    container_name: partsapi
+    image: ${DOCKER_REGISTRY-}partsapi
+    build:
+      context: .
+      dockerfile: PARTS.API/Dockerfile
+    networks:
+      - ServiceStationPartsNetwork
+    ports:
+      - 2030:8080
+    environment:
+      - REDIS=RedisCash
+      - DB_HOST=PartsDatabase
+      - DB_USER=sa
+      - DB_NAME=ServiceStationParts
+      - DB_SA_PASSWORD=Qwerty123
+      - RBBITMQ_USER=guest
+      - RBBITMQ_PASS=guest
+    depends_on:
+      - partsdatabase
+      - rediscash
+    # command: ["dotnet", "ef", "database", "update"]
+
+
+  jobs.api:
+    container_name: jobsapi
+    image: ${DOCKER_REGISTRY-}jobsapi
+    build:
+      context: .
+      dockerfile: JOBS.API/Dockerfile
+    networks:
+      - ServiceStationPartsNetwork
+    ports:
+      - 2040:8080
+    environment:
+      - REDIS=RedisCash
+      - DB_HOST=JobsDatabase      
+      - DB_USER=sa
+      - DB_NAME=ServiceStationJobs
+      - DB_SA_PASSWORD=Qwerty123
+      - RBBITMQ_USER=guest
+      - RBBITMQ_PASS=guest
+    depends_on:
+      - jobsdatabase
+      - rediscash
+    # command: ["dotnet", "ef", "database", "update"]
+
+  identity.api:
+    container_name: identityapi
+    image: ${DOCKER_REGISTRY-}identityapi
+    build:
+      context: .
+      dockerfile: IDENTITY.API/Dockerfile
+    networks:
+      - ServiceStationPartsNetwork
+    ports:
+      - 2050:8080
+    environment:
+      - REDIS=RedisCash
+      - DB_HOST=IdentityDatabase
+      - DB_USER=sa
+      - DB_NAME=ServiceStationParts
+      - DB_SA_PASSWORD=Qwerty123
+      - RBBITMQ_USER=guest
+      - RBBITMQ_PASS=guest
+    depends_on:
+      - identitydatabase
+    # command: ["dotnet", "ef", "database", "update"]
+
+  api.gateway:
+    container_name: api_gateway
+    image: ${DOCKER_REGISTRY-}apigateway
+    build:
+      context: .
+      dockerfile: API.GATEWAY/Dockerfile
+    networks:
+      - ServiceStationPartsNetwork
+    ports:
+      - 2060:8080
+    depends_on:
+      - identity.api
+      - jobs.api
+      - parts.api
+    
+  ml.api:
+    container_name: mlapi
+    image: ${DOCKER_REGISTRY-}servicestationfastapi:latest
+    networks:
+        - ServiceStationPartsNetwork
+    ports:
+        - 2070:8000
+
+
+volumes:
+  identity_data:
+  parts_data:
+  jobs_data:

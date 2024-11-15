@@ -1,0 +1,44 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/jobs/swagger/{everything}",
+      "SwaggerKey": "jobs",
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "DownstreamPathTemplate": "/swagger/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "jobsapi",
+          "Port": "8080"
+        }
+      ]
+
+    },
+    {
+
+      "SwaggerKey": "jobs",
+      "UpstreamPathTemplate": "/jobs/{everything}",
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "jobsapi",
+          "Port": "8080"
+
+        }
+      ]
+
+    }
+  ]
+}

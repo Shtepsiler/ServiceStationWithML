@@ -1,0 +1,33 @@
+﻿{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/model/openapi.json",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/openapi.json",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mlapi",
+          "Port": 8000
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/model/{everything}",
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mlapi",
+          "Port": 8000
+        }
+      ]
+    }
+  ]
+}

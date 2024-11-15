@@ -1,0 +1,51 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "Gateway",
+      "TransformByOcelotConfig": false,
+      "Config": [
+        {
+          "Name": "API.GATEWAY",
+          "Version": "1.0",
+          "Url": "http://localhost:2000/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "identity.api",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "IdentityAPI",
+          "Version": "1.0",
+
+          "Url": "http://identity.api:80/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "jobs.api",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "JobsAPI",
+          "Version": "1.0",
+
+          "Url": "http://jobs.api:80/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": " parts.api",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "PartsAPI",
+          "Version": "1.0",
+
+          "Url": "http://parts.api:80/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}
